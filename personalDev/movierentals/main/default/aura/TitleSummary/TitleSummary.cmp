@@ -5,7 +5,9 @@
 
     <div class="slds-p-horizontal_small clickable" onclick="{!c.clickTitleCard}">
         <img class="thumbnail" src="{!v.title.Thumbnail__c}" />
-        <p>{!v.title.Genre__c}</p>
+        <div class="slds-p-vertical_xx-small">
+            <p>{!v.title.Genre__c}</p>
+        </div>
     </div>
 
 </aura:component>
