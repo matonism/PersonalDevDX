@@ -22,5 +22,4 @@ $RECYCLE.BIN/
 # Operating System Files
 # =========================
 
-/personalDev/.sfdx/orgs
-sfdx-config.json
+.sfdx/orgs
