@@ -1,0 +1,1712 @@
+[
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\force-app",
+        {
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1549481148196,
+            "changeTime": 1549481148196,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\force-app\\main",
+        {
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1549481148197,
+            "changeTime": 1549481148197,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\force-app\\main\\default",
+        {
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\force-app\\main\\default",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1549481148198,
+            "changeTime": 1549481148198,
+            "contentHash": "2c2a89c1c45d2977cfce538e475902f5520f4382",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\force-app\\main\\default\\aura",
+        {
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1549481148198,
+            "changeTime": 1549481148198,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev",
+        {
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1549484889629,
+            "changeTime": 1549484890365,
+            "contentHash": "80c2982846a8b6fc5f1114d289ecc6c9e79ff1d2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895551,
+            "changeTime": 1549484895551,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895567,
+            "changeTime": 1549484896161,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484896036,
+            "changeTime": 1549484896036,
+            "contentHash": "77695b3174e4871b2d3b7aa8cb64a2ef55a3662c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\applications",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\applications",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895583,
+            "changeTime": 1549484895583,
+            "contentHash": "cb34edfcc4a152b799cf79bd4a4062213f1e3ba0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\applications\\MovieRentals_Lightning.app-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\applications\\MovieRentals_Lightning.app-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 480,
+            "modifiedTime": 1548353057244,
+            "changeTime": 1548353057244,
+            "contentHash": "ca402b27285bc0fde38afecedbe860cbb5f306a7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895816,
+            "changeTime": 1549484895816,
+            "contentHash": "0ec207adefe28974d175b10eeffcf340cd5e9fce",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\EA_SelectedTitle",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\EA_SelectedTitle",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895603,
+            "changeTime": 1549484895603,
+            "contentHash": "53da6ea7dc51273b3e35b8f25bee243c61966448",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\EA_SelectedTitle\\EA_SelectedTitle.evt",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\EA_SelectedTitle\\EA_SelectedTitle.evt",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 174,
+            "modifiedTime": 1548353082374,
+            "changeTime": 1548353082374,
+            "contentHash": "05e4c756ca947c6103ff5162d7176fb90936c265",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\EA_SelectedTitle\\EA_SelectedTitle.evt-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\EA_SelectedTitle\\EA_SelectedTitle.evt-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 236,
+            "modifiedTime": 1548353082374,
+            "changeTime": 1548353082374,
+            "contentHash": "f6de2d25cf975d95c788d085d16abd8a7708048c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895650,
+            "changeTime": 1549484895650,
+            "contentHash": "9c915e1b783f094bc9794cc8acbd0ce6b9f1d1dd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainer.auradoc",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainer.auradoc",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 209,
+            "modifiedTime": 1548353082546,
+            "changeTime": 1548353082546,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainer.cmp",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainer.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 410,
+            "modifiedTime": 1548353082546,
+            "changeTime": 1548353082546,
+            "contentHash": "1b0a69d4fa369bdf35d444e9638501ceca7b8a8e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainer.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainer.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 250,
+            "modifiedTime": 1548353082546,
+            "changeTime": 1548353082546,
+            "contentHash": "4029b9193f605e080d62051b1405ba9140d2028e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainer.css",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainer.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 9,
+            "modifiedTime": 1548353082546,
+            "changeTime": 1548353082546,
+            "contentHash": "690dd1ee4df0575d78499135bec93071e468c5a4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainer.design",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainer.design",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 145,
+            "modifiedTime": 1548353082562,
+            "changeTime": 1548353082562,
+            "contentHash": "a747bb0c02eee7ece4e41f7ffd43a4cb0f762dee",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainerController.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainerController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 100,
+            "modifiedTime": 1548353082562,
+            "changeTime": 1548353082562,
+            "contentHash": "cbeedf56079dfbe0d7231a26d7ed594c25273dda",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainerHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainerHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 483,
+            "modifiedTime": 1548353082562,
+            "changeTime": 1548353082562,
+            "contentHash": "5fced7fd0deea3b743c961a371799b4b77d27c19",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainerRenderer.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\HomeTitleContainer\\HomeTitleContainerRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 48,
+            "modifiedTime": 1548353082562,
+            "changeTime": 1548353082562,
+            "contentHash": "be4fb16cab0788e3690426cade38290457df8023",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\RelatedStockContainer",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\RelatedStockContainer",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895681,
+            "changeTime": 1549484895681,
+            "contentHash": "e4beb12174fdf0c1d3cfc115dba8164fa0d373b1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\RelatedStockContainer\\RelatedStockContainer.cmp",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\RelatedStockContainer\\RelatedStockContainer.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 912,
+            "modifiedTime": 1548353083245,
+            "changeTime": 1548353083245,
+            "contentHash": "1f0f29ef32dbfa45b9864c5f52da808736de27bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\RelatedStockContainer\\RelatedStockContainer.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\RelatedStockContainer\\RelatedStockContainer.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1548353083245,
+            "changeTime": 1548353083245,
+            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\RelatedStockContainer\\RelatedStockContainerController.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\RelatedStockContainer\\RelatedStockContainerController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 370,
+            "modifiedTime": 1548353083245,
+            "changeTime": 1548353083245,
+            "contentHash": "47b474b848033d494842898cd54178523ca50958",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\RelatedStockContainer\\RelatedStockContainerHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\RelatedStockContainer\\RelatedStockContainerHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 748,
+            "modifiedTime": 1548353083261,
+            "changeTime": 1548353083261,
+            "contentHash": "404356dc2a4b9ffc721f0fad5377d6cbc1b91639",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895712,
+            "changeTime": 1549484895712,
+            "contentHash": "b5950536d550f8f95df7811c4a8dee147b0d53b5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRow.auradoc",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRow.auradoc",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 209,
+            "modifiedTime": 1548353083495,
+            "changeTime": 1548353083495,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRow.cmp",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRow.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 293,
+            "modifiedTime": 1548353083495,
+            "changeTime": 1548353083495,
+            "contentHash": "b9b3f5fdb7b966de89e068a4b25db4cef7e9f1fa",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRow.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRow.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 209,
+            "modifiedTime": 1548353083480,
+            "changeTime": 1548353083480,
+            "contentHash": "6fcd754813cba9b0f98ef735d42917c53c54a8bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRow.css",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRow.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 9,
+            "modifiedTime": 1548353083495,
+            "changeTime": 1548353083495,
+            "contentHash": "690dd1ee4df0575d78499135bec93071e468c5a4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRowController.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRowController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 117,
+            "modifiedTime": 1548353083495,
+            "changeTime": 1548353083495,
+            "contentHash": "83b35036e00b840fa3949c6cbf01c1968822f7c7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRowHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRowHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 243,
+            "modifiedTime": 1548353083511,
+            "changeTime": 1548353083511,
+            "contentHash": "f3f86de01cf73eb5554ecfc2286b23c09f791336",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRowRenderer.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockRow\\StockRowRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 48,
+            "modifiedTime": 1548353083511,
+            "changeTime": 1548353083511,
+            "contentHash": "be4fb16cab0788e3690426cade38290457df8023",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895744,
+            "changeTime": 1549484895744,
+            "contentHash": "bfc4640b24a66bf30ba8755b1f7b3b66eca5c860",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTable.auradoc",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTable.auradoc",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 209,
+            "modifiedTime": 1548353083527,
+            "changeTime": 1548353083527,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTable.cmp",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTable.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 510,
+            "modifiedTime": 1548353083527,
+            "changeTime": 1548353083527,
+            "contentHash": "16f13135a16cd4aa66d939f6c0b50701b38ca5c5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTable.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTable.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 215,
+            "modifiedTime": 1548353083511,
+            "changeTime": 1548353083511,
+            "contentHash": "d09620c0eb9f81c437d97bfaa4760f3d6c3b2a3f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTable.css",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTable.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 9,
+            "modifiedTime": 1548353083527,
+            "changeTime": 1548353083527,
+            "contentHash": "690dd1ee4df0575d78499135bec93071e468c5a4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTableController.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTableController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 57,
+            "modifiedTime": 1548353083527,
+            "changeTime": 1548353083527,
+            "contentHash": "b6617c89596c5aa5bced78088a52a8289bf4cb21",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTableHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTableHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 37,
+            "modifiedTime": 1548353083542,
+            "changeTime": 1548353083542,
+            "contentHash": "82bff16b3e0b457e56a7b6c6ea32695c8ebb9d7b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTableRenderer.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\StockTable\\StockTableRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 48,
+            "modifiedTime": 1548353083542,
+            "changeTime": 1548353083542,
+            "contentHash": "be4fb16cab0788e3690426cade38290457df8023",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCard",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCard",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895788,
+            "changeTime": 1549484895788,
+            "contentHash": "4a1b9b71d13352e31a60819a6c91f41943d45825",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCard\\TitleCard.cmp",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCard\\TitleCard.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 434,
+            "modifiedTime": 1548353083701,
+            "changeTime": 1548353083701,
+            "contentHash": "7d77d7c9dd4e522942fcf8d32c57c9d09db132f4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCard\\TitleCard.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCard\\TitleCard.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1548353083697,
+            "changeTime": 1548353083697,
+            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCard\\TitleCard.css",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCard\\TitleCard.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 9,
+            "modifiedTime": 1548353083704,
+            "changeTime": 1548353083704,
+            "contentHash": "690dd1ee4df0575d78499135bec93071e468c5a4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCard\\TitleCardController.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCard\\TitleCardController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 60,
+            "modifiedTime": 1548353083704,
+            "changeTime": 1548353083704,
+            "contentHash": "9fc7736232d1d9d7a40c4cea1d6b22e712d8f8b1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCard\\TitleCardHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCard\\TitleCardHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 40,
+            "modifiedTime": 1548353083704,
+            "changeTime": 1548353083704,
+            "contentHash": "c3c6efda41de64b759982510d6a2c72226aa087f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCardApp",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCardApp",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895800,
+            "changeTime": 1549484895800,
+            "contentHash": "c147515b1e033e7267fe2d33388a1c3210ea0da2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCardApp\\TitleCardApp.app",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCardApp\\TitleCardApp.app",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 113,
+            "modifiedTime": 1548353083720,
+            "changeTime": 1548353083720,
+            "contentHash": "5c8015e235aa1ade2d1699884e22e05f3f54fa89",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCardApp\\TitleCardApp.app-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleCardApp\\TitleCardApp.app-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1548353083704,
+            "changeTime": 1548353083704,
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleGrid",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleGrid",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895812,
+            "changeTime": 1549484895812,
+            "contentHash": "d325cf6726c15db439b5a48b5bd69c8bce6aa4a5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleGrid\\TitleGrid.cmp",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleGrid\\TitleGrid.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 457,
+            "modifiedTime": 1548353083720,
+            "changeTime": 1548353083720,
+            "contentHash": "41c20afcfb096805e9d9d8544cd663c5d7dd51bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleGrid\\TitleGrid.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleGrid\\TitleGrid.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1548353083720,
+            "changeTime": 1548353083720,
+            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleSummary",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleSummary",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895835,
+            "changeTime": 1549484895835,
+            "contentHash": "d5b548a22e8288f7c9bf180c6cf12dd5076d65ef",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleSummary\\TitleSummary.cmp",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleSummary\\TitleSummary.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 362,
+            "modifiedTime": 1548353083735,
+            "changeTime": 1548353083735,
+            "contentHash": "f565c6e5879c07936db9a3d82c7b93685bd0f8b1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleSummary\\TitleSummary.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleSummary\\TitleSummary.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1548353083735,
+            "changeTime": 1548353083735,
+            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleSummary\\TitleSummary.css",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleSummary\\TitleSummary.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1548353083735,
+            "changeTime": 1548353083735,
+            "contentHash": "deff1e07b260e39caf1cb00de89a03cfb6805131",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleSummary\\TitleSummaryController.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleSummary\\TitleSummaryController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 117,
+            "modifiedTime": 1548353083751,
+            "changeTime": 1548353083751,
+            "contentHash": "b32487ec351737ab03516360b85ddc209fddac10",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleSummary\\TitleSummaryHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\aura\\TitleSummary\\TitleSummaryHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 261,
+            "modifiedTime": 1548353083751,
+            "changeTime": 1548353083751,
+            "contentHash": "d233a9e14662c589e3f4626f6b08dd7e8ad3fd61",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895882,
+            "changeTime": 1549484895882,
+            "contentHash": "be8af6acce46e2f49ac454f0bc25a908ed6defa8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\HomeTitleAuraService.cls",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\HomeTitleAuraService.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 284,
+            "modifiedTime": 1548353057463,
+            "changeTime": 1548353057463,
+            "contentHash": "c41a1b8b61b5570caf74f621f011a8bb474c7b61",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\HomeTitleAuraService.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\HomeTitleAuraService.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1548353057463,
+            "changeTime": 1548353057463,
+            "contentHash": "35384e5e44ad3af7451dabe011db908c07dc85cf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\HomeTitleAuraServiceTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\HomeTitleAuraServiceTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 160,
+            "modifiedTime": 1548353057479,
+            "changeTime": 1548353057479,
+            "contentHash": "53e52c0e3b063207f32fccf81aae3b9faea512e7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\HomeTitleAuraServiceTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\HomeTitleAuraServiceTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1548353057479,
+            "changeTime": 1548353057479,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\RelatedStockAuraService.cls",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\RelatedStockAuraService.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 243,
+            "modifiedTime": 1548353057604,
+            "changeTime": 1548353057604,
+            "contentHash": "cac29198bf1b860044876d7073792d786af58544",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\RelatedStockAuraService.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\RelatedStockAuraService.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1548353057604,
+            "changeTime": 1548353057604,
+            "contentHash": "35384e5e44ad3af7451dabe011db908c07dc85cf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\StockDA.cls",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\StockDA.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 196,
+            "modifiedTime": 1548353057713,
+            "changeTime": 1548353057713,
+            "contentHash": "2d69c25bf048268bf76ff8a8c571c8a019410e53",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\StockDA.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\StockDA.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1548353057713,
+            "changeTime": 1548353057713,
+            "contentHash": "35384e5e44ad3af7451dabe011db908c07dc85cf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\TitleDA.cls",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\TitleDA.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 400,
+            "modifiedTime": 1548353057838,
+            "changeTime": 1548353057838,
+            "contentHash": "16e57c54c20adbd3cde664832fec9d03c6892555",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\TitleDA.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\TitleDA.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1548353057838,
+            "changeTime": 1548353057838,
+            "contentHash": "35384e5e44ad3af7451dabe011db908c07dc85cf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\TitleDAI.cls",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\TitleDAI.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 83,
+            "modifiedTime": 1548353057854,
+            "changeTime": 1548353057854,
+            "contentHash": "90564c39c62a10fecd3b6a0a4523d4ab20d06cfc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\TitleDAI.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\TitleDAI.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1548353057854,
+            "changeTime": 1548353057854,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\TitleDAMock.cls",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\TitleDAMock.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 406,
+            "modifiedTime": 1548353057870,
+            "changeTime": 1548353057870,
+            "contentHash": "40fe88de2ad6f2371886378ace7352d5fb2ad14f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\TitleDAMock.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\classes\\TitleDAMock.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1548353057870,
+            "changeTime": 1548353057870,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\flexipages",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\flexipages",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895898,
+            "changeTime": 1549484895898,
+            "contentHash": "ecbd1cf00c96f44b41b2e403d662ebb36605afa8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\flexipages\\Title_Record_Page.flexipage-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\flexipages\\Title_Record_Page.flexipage-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3200,
+            "modifiedTime": 1548353058026,
+            "changeTime": 1548353058026,
+            "contentHash": "390c814125717693b56b66140fd4f55b602f1bd9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\layouts",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895913,
+            "changeTime": 1549484895913,
+            "contentHash": "e44c6aa339268179d143ac6fb77d963dafd1e8a1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\layouts\\Stock__c-Stock Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\layouts\\Stock__c-Stock Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2435,
+            "modifiedTime": 1548451036944,
+            "changeTime": 1548451036944,
+            "contentHash": "ab67ecfd3b8552a9f0fda5d882c24098e6bc1652",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\layouts\\Title__c-Title Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\layouts\\Title__c-Title Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3446,
+            "modifiedTime": 1548452068879,
+            "changeTime": 1548452068879,
+            "contentHash": "3bcea9ca3bd7a244dbec970587786585300df735",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895976,
+            "changeTime": 1549484895976,
+            "contentHash": "a2946ce2b07bc50745d799b3ff58f003ec859b3f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895960,
+            "changeTime": 1549484895960,
+            "contentHash": "df1e1db8a7d85ce8a86e441519f0be3e8938cafe",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\fields",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895929,
+            "changeTime": 1549484895929,
+            "contentHash": "449f168da3c04303d7f27228a93d9e252124ddf9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\fields\\DueDate__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\fields\\DueDate__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 309,
+            "modifiedTime": 1548353058604,
+            "changeTime": 1548353058604,
+            "contentHash": "f807ba66e08862c430cc28d5165c47633b7da095",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\fields\\Status__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\fields\\Status__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 972,
+            "modifiedTime": 1548353058604,
+            "changeTime": 1548353058604,
+            "contentHash": "e3606bbb9299625b23d4367f2d6c361482fef64a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\fields\\Title__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\fields\\Title__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 588,
+            "modifiedTime": 1548353058604,
+            "changeTime": 1548353058604,
+            "contentHash": "525bfff62d5d4e26a79c4795ea14bb3bdc45fb8d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\listViews",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895945,
+            "changeTime": 1549484895945,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\listViews\\All.listView-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 204,
+            "modifiedTime": 1548353058604,
+            "changeTime": 1548353058604,
+            "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\Stock__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\Stock__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2071,
+            "modifiedTime": 1548353058604,
+            "changeTime": 1548353058604,
+            "contentHash": "c59a9b97d3225932d2e2fba250af504ba9d05f30",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\validationRules",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\validationRules",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895960,
+            "changeTime": 1549484895960,
+            "contentHash": "e8380074ec16499784a36d5e6d3248bb3fa3ed1f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\validationRules\\NewStockMustBeAvailable.validationRule-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\validationRules\\NewStockMustBeAvailable.validationRule-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 455,
+            "modifiedTime": 1548353058604,
+            "changeTime": 1548353058604,
+            "contentHash": "217edf3fba499916fef0b24aa07b7e43833786d0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\webLinks",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\webLinks",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484895960,
+            "changeTime": 1549484895960,
+            "contentHash": "c421e2dd2a787c915ee9848ed6d9d5a40ed0fc26",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\webLinks\\Nav_to_Title.webLink-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Stock__c\\webLinks\\Nav_to_Title.webLink-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 542,
+            "modifiedTime": 1548353058604,
+            "changeTime": 1548353058604,
+            "contentHash": "7feebf0ec73010dfec5aab011f6dbbb57e6a7148",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484896020,
+            "changeTime": 1549484896020,
+            "contentHash": "cca3194c5771c7a39ba433ee801c005630337605",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484896005,
+            "changeTime": 1549484896005,
+            "contentHash": "af9a4082a2c9c8585ec815c44454c3e1ee5a5cd0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields\\AvailableStock__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields\\AvailableStock__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 567,
+            "modifiedTime": 1548353058651,
+            "changeTime": 1548353058651,
+            "contentHash": "7f320068642af8369197339ff7dcd1d2f94f042a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields\\Description__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields\\Description__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 320,
+            "modifiedTime": 1548353058666,
+            "changeTime": 1548353058666,
+            "contentHash": "30ee205b69a4eccf0f5af971cf2460542238e3f2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields\\Genre__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields\\Genre__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1933,
+            "modifiedTime": 1548353058666,
+            "changeTime": 1548353058666,
+            "contentHash": "e554a6c6142e5d89dd02011806459c8b42a9b6cb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields\\Is_Featured__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields\\Is_Featured__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 328,
+            "modifiedTime": 1548353058666,
+            "changeTime": 1548353058666,
+            "contentHash": "bc5292f96c05125b03f88aabd89b2a76a2b2726b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields\\Thumbnail__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields\\Thumbnail__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 311,
+            "modifiedTime": 1548353058666,
+            "changeTime": 1548353058666,
+            "contentHash": "73b2fa4d4c2abe12952187ef1029067bc824b46f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields\\TotalStock__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\fields\\TotalStock__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 395,
+            "modifiedTime": 1548353058666,
+            "changeTime": 1548353058666,
+            "contentHash": "93553242737586a3d90f9c96bf799d4b996b70f9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\listViews",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484896020,
+            "changeTime": 1549484896020,
+            "contentHash": "a3f2938d1d6c7eaec556e79ee3a23b0029ff42e2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\listViews\\All.listView-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 204,
+            "modifiedTime": 1548353058666,
+            "changeTime": 1548353058666,
+            "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\listViews\\Featured_Titles.listView-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\listViews\\Featured_Titles.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 491,
+            "modifiedTime": 1548353058666,
+            "changeTime": 1548353058666,
+            "contentHash": "cc26cfa00e3a21a1f7a376fa7bd9fd9997416861",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\listViews\\Featured_Title_View.listView-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\listViews\\Featured_Title_View.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 302,
+            "modifiedTime": 1548353058666,
+            "changeTime": 1548353058666,
+            "contentHash": "77d283fac4eba47350efdd56fd33b94ba3b15a61",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\Title__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\Title__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2268,
+            "modifiedTime": 1548451403973,
+            "changeTime": 1548451403973,
+            "contentHash": "677e4b15e4293d8b3b5948ba1b3ffa45f59e7b46",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\webLinks",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\objects\\Title__c\\webLinks",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1548451222012,
+            "changeTime": 1549484896020,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\permissionsets",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\permissionsets",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484896036,
+            "changeTime": 1549484896036,
+            "contentHash": "458f1983c949c910482644185bb0f0270f746782",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\permissionsets\\Movie_Rental_Admin.permissionset-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\permissionsets\\Movie_Rental_Admin.permissionset-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3507,
+            "modifiedTime": 1548708488909,
+            "changeTime": 1548708488909,
+            "contentHash": "17035de5f30bfad4eb85ca6639322797367a2b14",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\tabs",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\tabs",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549484896051,
+            "changeTime": 1549484896051,
+            "contentHash": "04f3ba237e40834d38494bc8877046773e3b8038",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\tabs\\Stock__c.tab-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\tabs\\Stock__c.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 223,
+            "modifiedTime": 1548353082027,
+            "changeTime": 1548353082027,
+            "contentHash": "d50e1146086572c148512d11157e7f0b600961f2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\tabs\\Title__c.tab-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\mmatonis\\Documents\\DX\\personalDev2\\personalDev\\movierentals\\main\\default\\tabs\\Title__c.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 231,
+            "modifiedTime": 1548353082043,
+            "changeTime": 1548353082043,
+            "contentHash": "1804324f5277d8722ed8840c19d5d272de4e9ab6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ]
+]

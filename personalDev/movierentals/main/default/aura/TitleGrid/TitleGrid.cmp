@@ -1,0 +1,14 @@
+<aura:component >
+    
+    <aura:attribute name="titles" type="Title__c[]" />
+
+    <div class="slds-grid slds-wrap ">
+        <aura:iteration items="{!v.titles}" var="title">
+            <div class="slds-col slds-size_1-of-3 slds-p-around_x-small">
+                <c:TitleCard title="{!title}" >
+                    <c:TitleSummary title="{!title}" />
+                </c:TitleCard>
+            </div>
+        </aura:iteration>
+    </div>
+</aura:component>

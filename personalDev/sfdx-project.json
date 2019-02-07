@@ -1,0 +1,23 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    },
+    {
+      "path": "movierentals",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "package":"movierentals"
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "44.0",
+	"packageAliases": {
+	    "movierentals": "0Ho1R000000fxSVSAY",
+	    "movierentals@0.1.0-1": "04t1R000001QeP8QAK",
+	    "movierentals@0.1.0-2": "04t1R000001QePNQA0"
+	}
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewStockMustBeAvailable</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ ISNEW(), 
+ NOT(ISPICKVAL(Status__c, &#39;Available&#39;))
+)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>Newly created stock must have a status of Available</errorMessage>
+</ValidationRule>

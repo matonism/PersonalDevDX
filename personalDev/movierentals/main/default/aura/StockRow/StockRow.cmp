@@ -1,0 +1,14 @@
+<aura:component>
+	
+	<aura:attribute name="stock" type="Stock__c"/>
+
+	<tr>
+    	<td>
+    		<lightning:button label="{!v.stock.Name}" variant="base" onclick="{!c.stockNameClicked}"/>
+        </td>
+        <td>
+        	{!v.stock.Status__c}
+        </td>
+    </tr>
+
+</aura:component>

@@ -1,0 +1,15 @@
+<aura:component description="HomeTitleContainer"
+	implements="flexipage:availableForAllPageTypes"
+	controller="HomeTitleAuraService"
+	access="global" >
+
+	<aura:attribute name="limitter" type="Integer" default="10" />
+	<aura:attribute name="titles" type="Title__c[]" />
+
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+	<div>
+		<c:TitleGrid titles="{!v.titles}" />
+	</div>
+
+</aura:component>

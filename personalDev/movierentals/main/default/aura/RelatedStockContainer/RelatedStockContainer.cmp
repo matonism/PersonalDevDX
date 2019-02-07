@@ -1,0 +1,21 @@
+<aura:component controller="RelatedStockAuraService" implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global">
+    <aura:attribute name="recordId" type="Id"/>
+    <aura:attribute name="title" type="Title__c" />
+    <aura:attribute name="stocks" type="Stock__c[]" />
+
+    <aura:attribute name="error" type="Object"/>
+
+    <aura:handler name="change" value="{!v.title}" action="{!c.doInit}"/>
+
+    <force:recordData aura:id="dataLoader"
+                      recordId="{!v.recordId}"
+                      fields="Name,Id,AvailableStock__c, TotalStock__c"
+                      mode="VIEW"
+                      targetFields="{!v.title}"
+                      targetError="{!v.error}" />
+
+    <aura:handler event="c:EA_SelectedTitle" action="{!c.handleSelectedTitle}"/>
+    <c:TitleCard title="{!v.title}">
+        <c:StockTable stocks="{!v.stocks}" />
+    </c:TitleCard>
+</aura:component>

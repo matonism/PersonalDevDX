@@ -1,0 +1,18 @@
+<aura:component>
+	
+	<aura:attribute name="stocks" type="Stock__c[]"/>
+    <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+        <thead>
+            <tr class="slds-text-title_caps">
+                <th>Number</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+	        <aura:iteration items="{!v.stocks}" var="stock">
+	        	<c:StockRow stock="{!stock}" />
+	        </aura:iteration>
+	    </tbody>
+    </table>
+
+</aura:component>

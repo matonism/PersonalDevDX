@@ -1,0 +1,11 @@
+<aura:component >
+    <aura:attribute name="title" type="Title__c" />
+
+    <!--<aura:registerEvent name="SelectedTitle" type="c:EA_SelectedTitle"/>-->
+
+    <div class="slds-p-horizontal_small clickable" onclick="{!c.clickTitleCard}">
+        <p>{!v.title.Genre__c}</p>
+        <img class="thumbnail" src="{!v.title.Thumbnail__c}" />
+    </div>
+
+</aura:component>

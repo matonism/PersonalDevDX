@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION" description="Event template" >
+	<aura:attribute name="title" type="Title__c"/>
+	<aura:attribute name="channel" type="String"/>
+</aura:event>

@@ -1,0 +1,13 @@
+<aura:component >
+    <aura:attribute name="title" type="Title__c" />
+
+    <lightning:card iconName="{!v.title.Is_Featured__c ? 'custom:custom7' : 'custom:custom3'}" title="{!v.title.Name}">
+        
+        {!v.body}
+
+        <aura:set attribute="footer">
+    	    <lightning:badge label="{!'Available Stock: ' + v.title.AvailableStock__c + '/' + v.title.TotalStock__c}"/>
+        </aura:set>
+
+    </lightning:card>
+</aura:component>
