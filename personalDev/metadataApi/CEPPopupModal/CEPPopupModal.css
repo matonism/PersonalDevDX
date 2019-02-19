@@ -1,0 +1,21 @@
+.THIS .right-button {
+	float: right;
+}
+
+.THIS .center-button {
+	text-align: center;
+}
+
+.THIS {
+	z-index: 9003;
+}
+
+.THIS.backdrop {
+	z-index: 9002;
+	width: 400%;
+	margin-left: -133%;
+}
+
+.THIS .modal-style{
+	border-radius: 0.25rem;
+}
