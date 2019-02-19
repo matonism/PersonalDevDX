@@ -1,5 +1,5 @@
 <aura:component description="AircraftCalendarContainer" controller="FlightCalendarAuraService" implements="flexipage:availableForAllPageTypes">
-		<ltng:require scripts="/resource/fullcalendar/fullcalendar/lib/jquery.min.js, /resource/fullcalendar/fullcalendar/lib/moment.min.js, /resource/fullcalendar/fullcalendar/fullcalendar.min.js" 
+		<ltng:require scripts="/resource/fullcalendar/fullcalendar/lib/jquery.min.js, /resource/fullcalendar/fullcalendar/lib/moment.min.js, /resource/fullcalendar/fullcalendar/fullcalendar.js" 
 		styles="/resource/fullcalendar/fullcalendar/fullcalendar.min.css" afterScriptsLoaded="{!c.retrieveCalendarData}"/>
 	
 	<lightning:card>

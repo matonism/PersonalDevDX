@@ -1,22 +1,11 @@
 {
     "packageDirectories": [
         {
-            "path": "force-app",
-            "default": false
-        },
-        {
             "path": "movierentals",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "movierentals"
-        },
-        {
-            "path": "calendar",
             "default": true,
-            "package": "AircraftCalendar",
-            "versionName": "POC 1",
-            "versionNumber": "0.1.0.NEXT"
+            "package": "movierentals"
         }
     ],
     "namespace": "",

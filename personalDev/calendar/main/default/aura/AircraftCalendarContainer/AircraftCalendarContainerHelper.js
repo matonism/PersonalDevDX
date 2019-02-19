@@ -15,11 +15,12 @@
 			editable: true,
 			events: bookings,
 			droppable: true,
-			displayEventTime: true,
+			displayEventTime: false,
 			eventConstraint: {
 				start: moment().format('YYYY-MM-DD'),
 				end: '2100-01-01'
 			},
+			eventColor: 'blue',
 			views: {
 				basic: {eventLimit: 3},
 				agenda: {eventLimit: 3},
@@ -30,28 +31,33 @@
 	},
 
 	getCurrentDateFormattedForFullCalendar : function(component, event, helper){
-		var today = new Date();
-		var year = today.getFullYear();
-		var date = today.getDate() < 10 ? '0' + today.getDate() : today.getDate();
-		var month = today.getMonth() + 1 < 10 ? '0' + today.getMonth() + 1 : today.getMonth() + 1;
-
 		return moment().format('YYYY-MM-DD');
 	},
 
 	getFormattingBookings : function(component, event, helper){
 		var formattedBookings = [{
 			id: 'ABCD',
-			start: '2019-02-11',
-			end: '2019-02-14',
-			title: 'Test Event',
-			allDay: false
+			start: moment().format('YYYY-MM-DD'),
+			end: moment().add(4,'days').add(1, 'hours').format(),
+			title: 'Owner Use',
+			allDay: false,
+			color: 'rgba(25,150,200,1)'
 		},
 		{
 			id: 'ABCD2',
 			start: '2019-02-18',
-			end: '2019-02-18',
-			title: 'Test Event All Day',
-			allDay: true
+			end: '2019-02-19',
+			title: 'Charter',
+			allDay: false,
+			color: 'rgba(250,10,100,1)'
+		},
+		{
+			id: 'ABCD3',
+			start: '2019-02-19',
+			end: '2019-02-19',
+			title: 'Charter',
+			allDay: false,
+			color: 'rgba(250,10,100,1)'
 		}];
 		return formattedBookings;
 

@@ -10549,7 +10549,8 @@ var DateComponent = /** @class */ (function (_super) {
         // If the end time is actually inclusively part of the next day and is equal to or
         // beyond the next day threshold, adjust the end to be the exclusive end of `endDay`.
         // Otherwise, leaving it as inclusive will cause it to exclude `endDay`.
-        if (endTimeMS && endTimeMS >= this.nextDayThreshold) {
+        // if (endTimeMS && endTimeMS >= this.nextDayThreshold) {
+        if(endDay > startDay){
             endDay.add(1, 'days');
         }
         // If end is within `startDay` but not past nextDayThreshold, assign the default duration of one day.

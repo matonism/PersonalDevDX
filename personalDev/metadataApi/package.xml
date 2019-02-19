@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>AppMenu</name>
+    <members>Salesforce1</members>
+  </types>
+  <types>
+    <name>CustomApplication</name>
+    <members>Aircraft_Calendar</members>
+  </types>
+  <types>
+    <name>AuraDefinitionBundle</name>
+    <members>AircraftCalendarContainer</members>
+  </types>
+  <types>
+    <name>ApexClass</name>
+    <members>FlightCalendarAuraService</members>
+  </types>
+  <types>
+    <name>FlexiPage</name>
+    <members>Aircraft_Calendar</members>
+    <members>Aircraft_Calendar_UtilityBar</members>
+  </types>
+  <types>
+    <name>PermissionSet</name>
+    <members>Aircraft_Calendar</members>
+  </types>
+  <types>
+    <name>Profile</name>
+    <members>Admin</members>
+    <members>Custom%3A Marketing Profile</members>
+    <members>Custom%3A Sales Profile</members>
+    <members>Custom%3A Support Profile</members>
+  </types>
+  <types>
+    <name>Settings</name>
+    <members>OrgPreference</members>
+    <members>Security</members>
+  </types>
+  <types>
+    <name>StaticResource</name>
+    <members>fullcalendar</members>
+    <members>moment</members>
+  </types>
+  <types>
+    <name>CustomTab</name>
+    <members>Aircraft_Calendar</members>
+  </types>
+  <version>45.0</version>
+</Package>
