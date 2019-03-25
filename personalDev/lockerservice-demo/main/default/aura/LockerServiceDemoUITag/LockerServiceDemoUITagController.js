@@ -9,7 +9,9 @@
         console.dir(cNamespaceDiv);
 
         console.log("Looking for id=separateComponentDiv");
-        var cNamespaceDiv = document.getElementById("separateComponentDiv");
-        console.dir(cNamespaceDiv);
+        var separateComponentDiv = document.getElementById("separateComponentDiv");
+        console.dir(separateComponentDiv);
+
+        separateComponentDiv.appendChild(document.createElement(div));
     }
 })

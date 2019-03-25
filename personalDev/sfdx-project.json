@@ -16,6 +16,10 @@
         },
         {
             "path": "lockerservice-demo",
+            "default": false
+        },
+        {
+            "path": "core",
             "default": true
         }
     ],
