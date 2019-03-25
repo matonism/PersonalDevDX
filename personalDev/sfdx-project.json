@@ -1,6 +1,13 @@
 {
     "packageDirectories": [
         {
+            "path": "core",
+            "default": true,
+            "package": "core",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
             "path": "movierentals",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
@@ -16,11 +23,27 @@
         },
         {
             "path": "lockerservice-demo",
-            "default": false
+            "default": false,
+            "package": "lockerservice-demo",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "LockerServicePackage"
+                }
+            ]
         },
         {
-            "path": "core",
-            "default": true
+            "path": "user-panel",
+            "default": false,
+            "package": "user-panel",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "core"
+                }
+            ]
         }
     ],
     "namespace": "",
@@ -32,6 +55,7 @@
         "movierentals@0.1.0-2": "04t1R000001QePNQA0",
         "AircraftCalendar": "0Ho1R000000fxSaSAI",
         "AircraftCalendar@0.1.0-1": "04t1R000001QeTAQA0",
-        "LockerServicePackage": "04t1U000006pWU6"
+        "LockerServicePackage": "04t1U000006pWU6",
+        "core": "0Ho1R000000fxSuSAI"
     }
 }
