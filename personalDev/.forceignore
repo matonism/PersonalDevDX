@@ -7,3 +7,6 @@ AppSwitcher.appMenu
 OrgPreference.settings-meta.xml
 calendar\main\default\settings\OrgPreference.settings-meta.xml
 *.profile
+**/jsconfig.json
+
+**/.eslintrc.json

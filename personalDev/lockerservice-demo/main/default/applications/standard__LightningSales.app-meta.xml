@@ -8,6 +8,7 @@
     <label>Sales</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
+    <tabs>User_Panel</tabs>
     <tabs>Locker_Service_Demo1</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>

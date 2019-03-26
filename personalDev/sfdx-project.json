@@ -2,7 +2,7 @@
     "packageDirectories": [
         {
             "path": "core",
-            "default": true,
+            "default": false,
             "package": "core",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
@@ -35,7 +35,7 @@
         },
         {
             "path": "user-panel",
-            "default": false,
+            "default": true,
             "package": "user-panel",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
@@ -48,7 +48,7 @@
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "44.0",
+    "sourceApiVersion": "45.0",
     "packageAliases": {
         "movierentals": "0Ho1R000000fxSVSAY",
         "movierentals@0.1.0-1": "04t1R000001QeP8QAK",

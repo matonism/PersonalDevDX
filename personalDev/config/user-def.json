@@ -1,0 +1,13 @@
+{
+    "Username": "matonis1@sfdx.org",
+    "LastName": "Matonis",
+    "Email": "matonis1@sfdx.org",
+    "Alias": "matonis",
+    "TimeZoneSidKey": "America/Denver",
+    "LocaleSidKey": "en_US",
+    "EmailEncodingKey": "UTF-8",
+    "LanguageLocaleKey": "en_US",
+    "profileName": "Standard Platform User",
+    "permsets": [],
+    "generatePassword": true
+}

@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/moment": [
+                "../../../../calendar/main/default/staticresources/moment/moment.js"
+            ],
+            "c/user-display-panel": [
+                "userDisplayPanel/userDisplayPanel.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ]
+}
