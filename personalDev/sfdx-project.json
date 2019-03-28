@@ -8,18 +8,16 @@
             "versionNumber": "0.1.0.NEXT"
         },
         {
-            "path": "movierentals",
+            "path": "user-panel",
+            "default": true,
+            "package": "user-panel",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "movierentals"
-        },
-        {
-            "path": "calendar",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "calendar"
+            "dependencies": [
+                {
+                    "package": "core"
+                }
+            ]
         },
         {
             "path": "lockerservice-demo",
@@ -34,16 +32,18 @@
             ]
         },
         {
-            "path": "user-panel",
-            "default": true,
-            "package": "user-panel",
+            "path": "movierentals",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "dependencies": [
-                {
-                    "package": "core"
-                }
-            ]
+            "default": false,
+            "package": "movierentals"
+        },
+        {
+            "path": "calendar",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "package": "calendar"
         }
     ],
     "namespace": "",
