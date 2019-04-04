@@ -1,0 +1,32 @@
+<template>
+    <lightning-card title="User Detail Panel" icon-name="custom:custom10">
+        <div class="slds-p-around_small">
+
+            <template if:true={user}>
+                <div class="slds-grid slds-wrap">
+
+                    <div class="slds-size_1-of-2">
+                        Name: {user.Name}
+                    </div>
+
+                    <div class="slds-size_1-of-2">
+                        Id: {user.Id}
+                    </div>
+
+                    <div class="slds-size_1-of-2">
+                        Email: {user.Email}
+                    </div>
+
+                    <div class="slds-size_1-of-2">
+                        Job Title: {user.Job_Title__c}
+                    </div>
+
+                </div>
+                
+            </template>
+
+
+        </div>
+
+    </lightning-card>
+</template>

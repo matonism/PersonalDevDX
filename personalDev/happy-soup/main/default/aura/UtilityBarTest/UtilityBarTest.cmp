@@ -1,0 +1,14 @@
+<aura:component implements="flexipage:availableForAllPageTypes,lightning:availableForFlowScreens">
+	
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+	
+
+ 	<aura:attribute name="Subject" type="Object[]"/>
+ 	<aura:attribute name="Greeting" type="String"/>
+
+	<div class="container">
+		<lightning:button label="Contacts" class="wide-button" onclick="{!c.navigateToContactsPage}"/>
+		<br/>
+		<lightning:button label="Callout" class="wide-button" onclick="{!c.navigateToCalloutPage}"/>
+	</div>
+</aura:component>

@@ -1,0 +1,12 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome">
+	<aura:attribute name="selectedLookUpRecord" type="Object" />
+    <c:helloHeading />
+	<p>Hello Lightning!</p>
+
+	<c:LookupSObject label="Account"  sObjectAPIName="Account" instanceId="account" pluralLabel="Accounts" listIconSVGPath="/resource/SLDS092/assets/icons/standard-sprite/svg/symbols.svg#account"/>
+
+
+	<c:CustomLookup objectAPIName="account" IconName="standard:account" selectedRecord="{!v.selectedLookUpRecord}" label="Account Name"/>
+
+
+</aura:component>

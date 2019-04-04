@@ -1,0 +1,16 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" >
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="targetError" type="Object" />
+    <aura:attribute name="zoo" type="Zoo__c" />
+    <aura:attribute name="fields" type="String[]" default="Id,Name"/>
+	
+    <force:recordData aura:id="recordLoader2"
+      recordId="{!v.recordId}"
+      fields="{!v.fields}"
+      targetFields="{!v.zoo}"
+      targetError="{!v.targetError}"
+      recordUpdated="{!c.checkZoo}"
+      />
+    	{!v.zoo.Name}
+    {!v.targetError}
+</aura:component>

@@ -1,0 +1,10 @@
+<aura:component >
+    <aura:attribute name="accounts" type="Account[]"/>
+    <div class="slds-grid">
+    	<aura:iteration items="{!v.accounts}" var="acc">
+    		<div class="slds-size_1-of-3">
+    			<c:AccountCard acc="{!acc}"/>
+    	    </div>
+    	</aura:iteration>
+    </div>
+</aura:component>

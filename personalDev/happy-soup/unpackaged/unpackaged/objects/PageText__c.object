@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>PageTextCompactLayout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>PageTextCompactLayout</fullName>
+        <fields>PageName__c</fields>
+        <fields>PageSection__c</fields>
+        <fields>Name</fields>
+        <label>PageTextCompactLayout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>PageName__c</fullName>
+        <externalId>false</externalId>
+        <label>Page Name</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PageSection__c</fullName>
+        <externalId>false</externalId>
+        <label>Page Section</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Text__c</fullName>
+        <description>The text that goes in the specified section</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The text that goes in the specified section</inlineHelpText>
+        <label>Text</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <label>Page Text</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Page Text Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Page Texts</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Test_Button</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Test Button</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&apos;//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js&apos;)}
+{!REQUIRESCRIPT(&apos;//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js&apos;)}
+var j$ = jQuery.noConflict();
+j$(document).ready(function(){
+   j$(&apos;[name=&quot;test_button&quot;]&apos;).val(&quot;Testing...&quot;);
+});
+
+var y = document.getElementById(&quot;contentWrapper&quot;);
+var x = document.getElementsByTagName(&quot;BODY&quot;)[0];
+var actionStatus = document.createElement(&quot;div&quot;);
+x.insertBefore(actionStatus, x.firstChild);
+
+actionStatus.style.position = &quot;fixed&quot;;
+actionStatus.style.zIndex= &quot;100&quot;;
+actionStatus.style.width= &quot;100%&quot;;
+
+actionStatus.innerHTML = &quot;&lt;div style=\&quot;position: relative; margin-left: -10px; height: 30px; width: 100%; background: black; opacity:0.65;\&quot;&gt;&quot;
++&quot;&lt;div class=\&quot;waitingSearchDiv\&quot; id=\&quot;el_loading\&quot; style=\&quot;background-color: black; height: 100%;opacity:1;width:100%;\&quot;&gt; &quot;
++&quot;&lt;div class=\&quot;waitingHolder\&quot; style=\&quot;top: 8px; width: auto;\&quot;&gt;&quot;
++&quot;&lt;img class=\&quot;waitingImage\&quot; src=\&quot;/img/loading.gif\&quot; title=\&quot;Please Wait...\&quot; /&gt;&quot;
++&quot;&lt;span class=\&quot;waitingDescription\&quot; style=\&quot;color: white;\&quot;&gt;Creating Project...&lt;/span&gt;&quot;
++&quot;&lt;/div&gt;&quot;
++&quot;&lt;/div&gt;&quot;
++ &quot;&lt;/div&gt;&quot;
+
+
+
+
+
+
+//alert(&quot;button was clicked&quot;); 
+setTimeout(function(){
+    location.reload();
+}, 50000);</url>
+    </webLinks>
+</CustomObject>

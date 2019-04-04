@@ -1,28 +1,14 @@
 {
     "packageDirectories": [
         {
-            "path": "core",
+            "path": "sfdx-core",
             "default": false,
-            "package": "core",
+            "package": "core-dev",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
         },
         {
-            "path": "movierentals",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "movierentals"
-        },
-        {
-            "path": "calendar",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "calendar"
-        },
-        {
-            "path": "lockerservice-demo",
+            "path": "sfdx-lockerservice-demo",
             "default": false,
             "package": "lockerservice-demo",
             "versionName": "ver 0.1",
@@ -34,14 +20,42 @@
             ]
         },
         {
-            "path": "user-panel",
-            "default": true,
-            "package": "user-panel",
+            "path": "sfdx-movierentals",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "package": "movierentals"
+        },
+        {
+            "path": "sfdx-calendar",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "package": "calendar"
+        },
+        {
+            "path": "sfdx-user-panel",
+            "package": "User Panel",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
             "dependencies": [
                 {
-                    "package": "core"
+                    "package": "core-dev",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "sfdx-animals",
+            "package": "User Panel",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": true,
+            "dependencies": [
+                {
+                    "package": "core-dev",
+                    "versionNumber": "0.1.0.LATEST"
                 }
             ]
         }
@@ -55,7 +69,13 @@
         "movierentals@0.1.0-2": "04t1R000001QePNQA0",
         "AircraftCalendar": "0Ho1R000000fxSaSAI",
         "AircraftCalendar@0.1.0-1": "04t1R000001QeTAQA0",
-        "LockerServicePackage": "04t1U000006pWU6",
-        "core": "0Ho1R000000fxSuSAI"
+        "LockerServicePackage": "04t1U000006pbUB",
+        "User Panel": "0Ho1R000000fxSzSAI",
+        "core-dev": "0Ho1R000000fxT4SAI",
+        "core-dev@0.1.0-1": "04t1R000001QewRQAS",
+        "User Panel@0.1.0-1": "04t1R000001QewWQAS",
+        "User Panel@0.1.0-2": "04t1R000001QewbQAC",
+        "core": "0Ho1R000000fxSuSAI",
+        "User Panel@0.1.0-5": "04t1R000001QewqQAC"
     }
 }
