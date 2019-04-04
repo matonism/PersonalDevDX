@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Zoo__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "animal-data-Zoo__cs.json"
+        ]
+    },
+    {
+        "sobject": "Animal__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "animal-data-Animal__cs.json"
+        ]
+    }
+]

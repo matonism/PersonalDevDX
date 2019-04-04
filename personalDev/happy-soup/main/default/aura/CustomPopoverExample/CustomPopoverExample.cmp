@@ -1,0 +1,153 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+
+    <aura:attribute name="showPopover1" type="Boolean" default="false"/>   
+    <aura:attribute name="showPopover2" type="Boolean" default="false"/>   
+    <aura:attribute name="showPopover3" type="Boolean" default="false"/>   
+    <aura:attribute name="showPopover4" type="Boolean" default="false"/>  
+    <aura:attribute name="showPopover5" type="Boolean" default="false"/>   
+    <aura:attribute name="showPopover6" type="Boolean" default="false"/>   
+    <aura:attribute name="showPopover7" type="Boolean" default="false"/>   
+    <aura:attribute name="showPopover8" type="Boolean" default="false"/>    
+
+    <div class="popover-container">
+
+	    <c:CustomPopover showPopover="{!v.showPopover1}" placement="left">
+
+	    	<aura:set attribute="popoverAnchor">
+			    <div class="hover-text" aura:id="hoverElement">
+			        Click to open and close popover
+			    </div>
+	    	</aura:set>
+
+	        Popover Contents <br/> More Popover Contents
+	        
+	    </c:CustomPopover>
+    </div>  
+
+    <br/>
+
+    <div class="popover-container">
+
+	    <c:CustomPopover showPopover="{!v.showPopover2}" isHoverPopover="true" hoverToClose="true" hoverToOpen="true" placement="left" >
+
+	    	<aura:set attribute="popoverAnchor">
+			    <div class="hover-text" aura:id="hoverElement">
+			        Hover to open and close popover
+			    </div>
+	    	</aura:set>
+
+	        Popover Contents <br/> More Popover Contents
+	        
+	    </c:CustomPopover>
+    </div>  
+
+    <br/>
+
+    <div class="popover-container">
+
+	    <c:CustomPopover showPopover="{!v.showPopover3}" isHoverPopover="true" hoverToClose="true" placement="left">
+
+	    	<aura:set attribute="popoverAnchor">
+			    <div class="hover-text" aura:id="hoverElement">
+			        Click to open and hover to close popover
+			    </div>
+	    	</aura:set>
+
+	        Popover Contents <br/> More Popover Contents
+	        
+	    </c:CustomPopover>
+    </div>  
+
+    <br/>
+
+    <div class="popover-container">
+
+	    <c:CustomPopover showPopover="{!v.showPopover4}" placement="left" isHoverPopover="true" hoverToOpen="true" >
+
+	    	<aura:set attribute="popoverAnchor">
+			    <div class="hover-text" aura:id="hoverElement">
+			        Hover to open and click to close popover
+			    </div>
+	    	</aura:set>
+
+	        Popover Contents <br/> More Popover Contents
+	        
+	    </c:CustomPopover>
+    </div>
+
+
+
+
+
+
+
+    <br/>
+
+	<div class="popover-container">
+
+	    <c:CustomPopover showPopover="{!v.showPopover5}" placement="right">
+
+	    	<aura:set attribute="popoverAnchor">
+			    <div class="hover-text" aura:id="hoverElement">
+			        Click to open and close popover
+			    </div>
+	    	</aura:set>
+
+	        Popover Contents <br/> More Popover Contents
+	        
+	    </c:CustomPopover>
+    </div>  
+
+    <br/>
+
+    <div class="popover-container">
+
+	    <c:CustomPopover showPopover="{!v.showPopover6}" isHoverPopover="true" hoverToClose="true" hoverToOpen="true" placement="right" >
+
+	    	<aura:set attribute="popoverAnchor">
+			    <div class="hover-text" aura:id="hoverElement">
+			        Hover to open and close popover
+			    </div>
+	    	</aura:set>
+
+	        Popover Contents <br/> More Popover Contents
+	        
+	    </c:CustomPopover>
+    </div>  
+
+    <br/>
+
+    <div class="popover-container">
+
+	    <c:CustomPopover showPopover="{!v.showPopover7}" isHoverPopover="true" hoverToClose="true" placement="right">
+
+	    	<aura:set attribute="popoverAnchor">
+			    <div class="hover-text" aura:id="hoverElement">
+			        Click to open and hover to close popover
+			    </div>
+	    	</aura:set>
+
+	        Popover Contents <br/> More Popover Contents
+	        
+	    </c:CustomPopover>
+    </div>  
+
+    <br/>
+
+    <div class="popover-container">
+
+	    <c:CustomPopover showPopover="{!v.showPopover8}" isHoverPopover="true" hoverToOpen="true" placement="right">
+
+	    	<aura:set attribute="popoverAnchor">
+			    <div class="hover-text" aura:id="hoverElement">
+			        Hover to open and click to close popover
+			    </div>
+	    	</aura:set>
+
+	        Popover Contents <br/> More Popover Contents
+	        
+	    </c:CustomPopover>
+    </div>
+
+
+</aura:component>

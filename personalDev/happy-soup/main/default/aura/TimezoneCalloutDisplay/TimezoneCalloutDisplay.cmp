@@ -1,0 +1,18 @@
+<aura:component controller="TimezoneCalloutDisplayAuraService" implements="force:appHostable,forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes">
+
+
+	<aura:attribute name="locations" type="String[]" />
+
+
+	<aura:handler name="init" value="{!this}" action="{!c.getDataEnvelope}"/>
+	<aura:handler event="c:TimezoneSendAddressEvent" action="{!c.addNewAddress}"/>
+	<aura:handler name="change" value="{!v.locations}" action="{!c.notify}"/>
+
+	<div class="slds-grid slds-wrap slds-grid_pull-padded">
+		<aura:iteration items="{!v.locations}" var="location">
+			<div class="slds-size_1-of-3" style="padding: 0px .25rem .5rem .25rem;">
+				<c:TimezoneCalloutDisplayCard location="{!location}"/>
+			</div>
+		</aura:iteration>
+	</div>
+</aura:component>

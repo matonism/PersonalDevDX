@@ -1,0 +1,120 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Zoo__c",
+                "referenceId": "Zoo__cRef1"
+            },
+            "Name": "Columbus Zoo and Aquarium",
+            "Address__c": "4850 W Powell Rd, Powell, OH 43065",
+            "Admission__c": 10,
+            "Indoor_Outdoor__c": "Indoor/Outdoor",
+            "Website__c": "https://www.columbuszoo.org/",
+            "Animals__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Animal__c",
+                            "referenceId": "Animal__cRef1"
+                        },
+                        "Name": "Steve",
+                        "Endangered__c": false,
+                        "Species__c": "Parrot"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Zoo__c",
+                "referenceId": "Zoo__cRef2"
+            },
+            "Name": "Cleveland Metroparks Zoo",
+            "Address__c": "3900 Wildlife Way, Cleveland, OH 44109",
+            "Admission__c": 8,
+            "Capacity__c": 4,
+            "Indoor_Outdoor__c": "Outdoor",
+            "Website__c": "https://clevelandmetroparks.com/zoo",
+            "Animals__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Animal__c",
+                            "referenceId": "Animal__cRef2"
+                        },
+                        "Name": "George",
+                        "Endangered__c": true,
+                        "Species__c": "Giraffe"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Animal__c",
+                            "referenceId": "Animal__cRef3"
+                        },
+                        "Name": "Tank",
+                        "Endangered__c": false,
+                        "Species__c": "Elephant"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Animal__c",
+                            "referenceId": "Animal__cRef4"
+                        },
+                        "Name": "Ed",
+                        "Endangered__c": true,
+                        "Quantity__c": 3,
+                        "Species__c": "Elephant"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Animal__c",
+                            "referenceId": "Animal__cRef5"
+                        },
+                        "Name": "Al",
+                        "Endangered__c": false,
+                        "Species__c": "Bear"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Zoo__c",
+                "referenceId": "Zoo__cRef3"
+            },
+            "Name": "Akron Zoo",
+            "Address__c": "500 Edgewood Ave, Akron, OH 44307",
+            "Admission__c": 5,
+            "Indoor_Outdoor__c": "Outdoor",
+            "Website__c": "https://www.akronzoo.org/",
+            "Animals__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Animal__c",
+                            "referenceId": "Animal__cRef6"
+                        },
+                        "Name": "Sam",
+                        "Endangered__c": true,
+                        "Species__c": "Tortoise"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Zoo__c",
+                "referenceId": "Zoo__cRef4"
+            },
+            "Name": "Cleveland Secondary Zoo",
+            "Address__c": "444 Anderson Ave",
+            "Admission__c": 0,
+            "Capacity__c": 2,
+            "Indoor_Outdoor__c": "Outdoor",
+            "Website__c": "www.google.com",
+            "Animals__r": {
+                "records": []
+            }
+        }
+    ]
+}
