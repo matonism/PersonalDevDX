@@ -1,0 +1,33 @@
+.THIS .parent-div-hover { 
+    display: none; 
+}
+
+.THIS .child-div-content-hover:hover .parent-div-hover { 
+    display : block; 
+}
+
+.THIS.modal-size {
+    position: absolute;
+    z-index: 10;
+}
+
+.THIS#hover-text {
+    display: inline-block;
+}
+
+.THIS .slds-popover {
+    min-width: 300px;
+}
+
+.THIS .slds-popover__header {
+	padding: 0.5rem;
+	background: rgb(255, 255, 255); 
+}
+
+.THIS .slds-nubbin_left-top:before{
+	background: rgb(255, 255, 255); 
+}
+
+.THIS .close-button {
+	float: right;
+}

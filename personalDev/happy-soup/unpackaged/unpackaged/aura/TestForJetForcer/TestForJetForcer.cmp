@@ -1,0 +1,4 @@
+<aura:component>
+    <aura:attribute name="test" type="String" default="hello"/>
+    
+</aura:component>

@@ -1,0 +1,65 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Animal__c",
+                "referenceId": "Animal__cRef1"
+            },
+            "Name": "Steve",
+            "Endangered__c": false,
+            "Species__c": "Parrot",
+            "Zoo__c": "@Zoo__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "Animal__c",
+                "referenceId": "Animal__cRef2"
+            },
+            "Name": "George",
+            "Endangered__c": true,
+            "Species__c": "Giraffe",
+            "Zoo__c": "@Zoo__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "Animal__c",
+                "referenceId": "Animal__cRef3"
+            },
+            "Name": "Tank",
+            "Endangered__c": false,
+            "Species__c": "Elephant",
+            "Zoo__c": "@Zoo__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "Animal__c",
+                "referenceId": "Animal__cRef4"
+            },
+            "Name": "Ed",
+            "Endangered__c": true,
+            "Quantity__c": 3,
+            "Species__c": "Elephant",
+            "Zoo__c": "@Zoo__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "Animal__c",
+                "referenceId": "Animal__cRef5"
+            },
+            "Name": "Al",
+            "Endangered__c": false,
+            "Species__c": "Bear",
+            "Zoo__c": "@Zoo__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "Animal__c",
+                "referenceId": "Animal__cRef6"
+            },
+            "Name": "Sam",
+            "Endangered__c": true,
+            "Species__c": "Tortoise",
+            "Zoo__c": "@Zoo__cRef3"
+        }
+    ]
+}

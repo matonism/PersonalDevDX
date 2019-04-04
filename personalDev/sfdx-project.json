@@ -1,21 +1,14 @@
 {
     "packageDirectories": [
         {
-            "path": "core",
+            "path": "sfdx-core",
             "default": false,
             "package": "core-dev",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
         },
         {
-            "path": "core",
-            "default": false,
-            "package": "core",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
-        },
-        {
-            "path": "lockerservice-demo",
+            "path": "sfdx-lockerservice-demo",
             "default": false,
             "package": "lockerservice-demo",
             "versionName": "ver 0.1",
@@ -27,21 +20,34 @@
             ]
         },
         {
-            "path": "movierentals",
+            "path": "sfdx-movierentals",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "default": false,
             "package": "movierentals"
         },
         {
-            "path": "calendar",
+            "path": "sfdx-calendar",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "default": false,
             "package": "calendar"
         },
         {
-            "path": "user-panel",
+            "path": "sfdx-user-panel",
+            "package": "User Panel",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "dependencies": [
+                {
+                    "package": "core-dev",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "sfdx-animals",
             "package": "User Panel",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
@@ -63,7 +69,7 @@
         "movierentals@0.1.0-2": "04t1R000001QePNQA0",
         "AircraftCalendar": "0Ho1R000000fxSaSAI",
         "AircraftCalendar@0.1.0-1": "04t1R000001QeTAQA0",
-        "LockerServicePackage": "04t1U000006pWU6",
+        "LockerServicePackage": "04t1U000006pbUB",
         "User Panel": "0Ho1R000000fxSzSAI",
         "core-dev": "0Ho1R000000fxT4SAI",
         "core-dev@0.1.0-1": "04t1R000001QewRQAS",

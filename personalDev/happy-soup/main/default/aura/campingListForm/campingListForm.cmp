@@ -1,0 +1,26 @@
+<aura:component >
+    <aura:attribute name="newItem" type="Camping_Item__c" default="{'sobjectType':'Camping_Item__c',
+                                                                   'Name':'',
+                                                                   'Quantity__c':0,
+                                                                   'Price__c':0}"
+                                                                   />
+    <aura:registerEvent name="addItem" type="c:addItemEvent" />
+
+        <legend id="newItemForm" class="slds-text-heading--small slds-p-vertical--medium">
+          Add Camping Item
+        </legend>
+
+        <!-- CREATE NEW EXPENSE FORM -->
+        <form class="slds-form--stacked">
+        
+            <p> Name: <ui:inputText aura:id="nameField" value='{!v.newItem.Name}'/></p>
+            <p> Quantity: <ui:inputNumber aura:id="quantityField" value='{!v.newItem.Quantity__c}'/></p>
+            <p> Price: <ui:inputCurrency aura:id="priceField" value='{!v.newItem.Price__c}'/></p>
+            <p> is Packed?: <ui:inputCheckbox aura:id="packedField" value='{!v.newItem.Packed__c}'/></p>
+            <div class="slds-form-element">
+                <ui:button label="Create Item"
+                           class="slds-button slds-button--brand"
+                           press="{!c.submitForm}"/>
+            </div>
+        </form>
+</aura:component>
