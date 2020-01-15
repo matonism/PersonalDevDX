@@ -1,6 +1,10 @@
 {
     "packageDirectories": [
         {
+            "path": "force-app",
+            "default": true
+        },
+        {
             "path": "sfdx-core",
             "default": false,
             "package": "core-dev",
@@ -51,7 +55,7 @@
             "package": "User Panel",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "default": true,
+            "default": false,
             "dependencies": [
                 {
                     "package": "core-dev",
@@ -76,6 +80,7 @@
         "User Panel@0.1.0-1": "04t1R000001QewWQAS",
         "User Panel@0.1.0-2": "04t1R000001QewbQAC",
         "core": "0Ho1R000000fxSuSAI",
-        "User Panel@0.1.0-5": "04t1R000001QewqQAC"
+        "User Panel@0.1.0-5": "04t1R000001QewqQAC",
+        "core-dev@0.1.0-2": "04t1R000001QfVFQA0"
     }
 }
