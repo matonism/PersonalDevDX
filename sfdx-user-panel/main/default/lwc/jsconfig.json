@@ -8,6 +8,12 @@
             ],
             "c/userDisplayPanel": [
                 "userDisplayPanel/userDisplayPanel.js"
+            ],
+            "c/titleGrid": [
+                "../../../../force-app/main/default/lwc/titleGrid/titleGrid.js"
+            ],
+            "c/titleCard": [
+                "../../../../force-app/main/default/lwc/titleCard/titleCard.js"
             ]
         }
     },

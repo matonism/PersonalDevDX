@@ -1,0 +1,9 @@
+<template>
+    <div class="slds-grid slds-wrap">
+        <template for:each={titles} for:item="title">
+            <div key={title.Id} class="slds-col slds-size_1-of-3 slds-p-around_small">
+                <c-title-card title={title}></c-title-card>
+            </div>
+        </template>
+    </div>
+</template>

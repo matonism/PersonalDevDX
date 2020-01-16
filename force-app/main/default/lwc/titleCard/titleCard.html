@@ -1,0 +1,17 @@
+<template>
+    <lightning-card>
+        <div slot="title">{title.Name}</div> 
+        <div class="slds-p-around_small">
+            <div>
+                <img class="thumbnail" src={title.Thumbnail__c}/>
+            </div>
+            {title.Genre__c}
+        </div>
+        <div slot="footer">
+            <lightning-badge label={stockLabel}>
+            </lightning-badge>
+        </div> 
+
+    </lightning-card>
+    
+</template>
