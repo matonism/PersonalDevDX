@@ -1,0 +1,21 @@
+<template>
+    <template if:true={title}>
+        
+        <c-title-card title={title}>
+            <div slot="content">
+                <c-stock-table stocks={stocks} onstockclicked={handleStockClicked}></c-stock-table>
+            </div>
+        </c-title-card>  
+
+
+        <template if:true={selectedStockId}>
+            <div class="slds-box slds-m-top_large">
+                <lightning-record-view-form record-id={selectedStockId} object-api-name="Stock__c">
+                    <lightning-output-field field-name="Id"></lightning-output-field>
+                    <lightning-output-field field-name="Name"></lightning-output-field>
+                </lightning-record-view-form>
+            </div>
+        </template>
+
+    </template>
+</template>

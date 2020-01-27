@@ -3,17 +3,38 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/apiPropertyTest": [
+                "../../../../force-app/main/default/lwc/apiPropertyTest/apiPropertyTest.js"
+            ],
+            "c/chartBar": [
+                "../../../../force-app/main/default/lwc/chartBar/chartBar.js"
+            ],
+            "c/homeTitleContainer": [
+                "../../../../force-app/main/default/lwc/homeTitleContainer/homeTitleContainer.js"
+            ],
+            "c/pubsub": [
+                "../../../../force-app/main/default/lwc/pubsub/pubsub.js"
+            ],
+            "c/relatedStockContainer": [
+                "../../../../force-app/main/default/lwc/relatedStockContainer/relatedStockContainer.js"
+            ],
+            "c/stockTable": [
+                "../../../../force-app/main/default/lwc/stockTable/stockTable.js"
+            ],
+            "c/titleCard": [
+                "../../../../force-app/main/default/lwc/titleCard/titleCard.js"
+            ],
+            "c/titleGrid": [
+                "../../../../force-app/main/default/lwc/titleGrid/titleGrid.js"
+            ],
+            "c/titleSummary": [
+                "../../../../force-app/main/default/lwc/titleSummary/titleSummary.js"
+            ],
             "c/moment": [
                 "../../../../sfdx-calendar/main/default/staticresources/moment/moment.js"
             ],
             "c/userDisplayPanel": [
                 "userDisplayPanel/userDisplayPanel.js"
-            ],
-            "c/titleGrid": [
-                "../../../../force-app/main/default/lwc/titleGrid/titleGrid.js"
-            ],
-            "c/titleCard": [
-                "../../../../force-app/main/default/lwc/titleCard/titleCard.js"
             ]
         }
     },

@@ -1,6 +1,42 @@
 {
     "compilerOptions": {
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/apiPropertyTest": [
+                "apiPropertyTest/apiPropertyTest.js"
+            ],
+            "c/chartBar": [
+                "chartBar/chartBar.js"
+            ],
+            "c/homeTitleContainer": [
+                "homeTitleContainer/homeTitleContainer.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/relatedStockContainer": [
+                "relatedStockContainer/relatedStockContainer.js"
+            ],
+            "c/stockTable": [
+                "stockTable/stockTable.js"
+            ],
+            "c/titleCard": [
+                "titleCard/titleCard.js"
+            ],
+            "c/titleGrid": [
+                "titleGrid/titleGrid.js"
+            ],
+            "c/titleSummary": [
+                "titleSummary/titleSummary.js"
+            ],
+            "c/moment": [
+                "../../../../sfdx-calendar/main/default/staticresources/moment/moment.js"
+            ],
+            "c/userDisplayPanel": [
+                "../../../../sfdx-user-panel/main/default/lwc/userDisplayPanel/userDisplayPanel.js"
+            ]
+        }
     },
     "include": [
         "**/*",
