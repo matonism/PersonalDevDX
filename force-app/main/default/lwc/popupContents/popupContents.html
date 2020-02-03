@@ -1,3 +1,16 @@
 <template>
-    <lightning-button label="Finish" click={hideModal}></lightning-button>
+    <lightning-record-edit-form 
+    object-api-name="Contact"
+    layout-type="Compact"
+    onsuccess={handleSuccess}
+    onerror={handleError}
+    >
+        <lightning-input-field field-name="Title" onblur={checkIfValid} data-id='title'></lightning-input-field>
+        <lightning-input-field field-name="FirstName" data-id='firstname'></lightning-input-field>
+        <lightning-input-field field-name="LastName" data-id='lastname'></lightning-input-field>
+        <lightning-input-field field-name="Birthdate" data-id='birthdate'></lightning-input-field>
+        <lightning-input-field field-name="Phone" data-id='phone'></lightning-input-field>
+        <lightning-input-field field-name="Email" data-id='email'></lightning-input-field>
+    
+    </lightning-record-edit-form>
 </template>

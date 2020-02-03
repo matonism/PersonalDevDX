@@ -1,20 +1,34 @@
 import { LightningElement, api, track } from 'lwc';
 
-const CSS_CLASS = 'modal-hidden';
+const HIDDEN_CSS_CLASS = 'modal-hidden';
+const BASE_MODAL_CSS = 'slds-modal slds-fade-in-open';
 
 export default class Modal extends LightningElement {
     @track showModal = false;
+    @track hasHeaderString = false;
+
+    modalClass = BASE_MODAL_CSS;
+    privateHeader;
+    privateSize;
+
     @api
-    set header(value) {
-        this.hasHeaderString = value !== '';
-        this._headerPrivate = value;
+    get size() {
+        return this.privateSize;
     }
+    @api
     get header() {
-        return this._headerPrivate;
+        return this.privateHeader;
     }
 
-    @track hasHeaderString = false;
-    _headerPrivate;
+    set size(value) {
+        this.privateSize = encodeURI(value);
+        this.modalClass = BASE_MODAL_CSS + ' slds-modal_' + this.privateSize;
+    }
+    set header(value) {
+        this.privateHeader = value;
+        this.hasHeaderString = value !== '';
+    }
+
 
     @api show() {
         this.showModal = true;
@@ -33,11 +47,11 @@ export default class Modal extends LightningElement {
 
     handleSlotTaglineChange() {
         const taglineEl = this.template.querySelector('p');
-        taglineEl.classList.remove(CSS_CLASS);
+        taglineEl.classList.remove(HIDDEN_CSS_CLASS);
     }
 
     handleSlotFooterChange() {
         const footerEl = this.template.querySelector('footer');
-        footerEl.classList.remove(CSS_CLASS);
+        footerEl.classList.remove(HIDDEN_CSS_CLASS);
     }
 }

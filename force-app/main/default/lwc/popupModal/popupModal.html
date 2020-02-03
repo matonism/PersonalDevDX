@@ -1,14 +1,16 @@
 <template>
     <template if:true={showModal}>
+        
         <section
             role="dialog"
             tabindex="-1"
             aria-labelledby="modal-heading-01"
             aria-modal="true"
             aria-describedby="modal-content-id-1"
-            class="slds-modal slds-fade-in-open"
+            class={modalClass}
         >
             <div class="slds-modal__container">
+
                 <header class="slds-modal__header">
                     <lightning-button-icon
                         class="slds-modal__close"
@@ -19,31 +21,25 @@
                     ></lightning-button-icon>
 
                     <template if:true={hasHeaderString}>
-                        <h2
-                            class="slds-text-heading_medium slds-hyphenate header-string"
-                        >
+                        <h2 class="slds-text-heading_medium slds-hyphenate header-string">
                             {header}
                         </h2>
                     </template>
+
                     <template if:false={hasHeaderString}>
-                        <h2
-                            class="slds-text-heading_medium slds-hyphenate header-slot"
-                        >
+                        <h2 class="slds-text-heading_medium slds-hyphenate header-slot">
                             <slot name="header"></slot>
                         </h2>
                     </template>
 
                     <p class="slds-m-top_x-small modal-hidden">
-                        <slot
-                            name="tagline"
-                            onslotchange={handleSlotTaglineChange}
-                        ></slot>
+                        <slot name="tagline" onslotchange={handleSlotTaglineChange}></slot>
                     </p>
+
                 </header>
-                <div
-                    class="slds-modal__content slds-p-around_medium"
-                    id="modal-content-id-1"
-                >
+
+
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
                     <slot></slot>
                 </div>
 
@@ -53,8 +49,12 @@
                         onslotchange={handleSlotFooterChange}
                     ></slot>
                 </footer>
+
             </div>
+
         </section>
+
         <div class="slds-backdrop slds-backdrop_open"></div>
+
     </template>
 </template>
