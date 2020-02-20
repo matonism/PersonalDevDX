@@ -3,65 +3,6 @@
         {
             "path": "force-app",
             "default": true
-        },
-        {
-            "path": "sfdx-core",
-            "default": false,
-            "package": "core-dev",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
-        },
-        {
-            "path": "sfdx-lockerservice-demo",
-            "default": false,
-            "package": "lockerservice-demo",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "dependencies": [
-                {
-                    "package": "LockerServicePackage"
-                }
-            ]
-        },
-        {
-            "path": "sfdx-movierentals",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "movierentals"
-        },
-        {
-            "path": "sfdx-calendar",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "calendar"
-        },
-        {
-            "path": "sfdx-user-panel",
-            "package": "User Panel",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "dependencies": [
-                {
-                    "package": "core-dev",
-                    "versionNumber": "0.1.0.LATEST"
-                }
-            ]
-        },
-        {
-            "path": "sfdx-animals",
-            "package": "User Panel",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "dependencies": [
-                {
-                    "package": "core-dev",
-                    "versionNumber": "0.1.0.LATEST"
-                }
-            ]
         }
     ],
     "namespace": "",

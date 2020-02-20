@@ -10,7 +10,7 @@ export default class Modal extends LightningElement {
     modalClass = BASE_MODAL_CSS;
     privateHeader;
     privateSize;
-
+    
     @api
     get size() {
         return this.privateSize;

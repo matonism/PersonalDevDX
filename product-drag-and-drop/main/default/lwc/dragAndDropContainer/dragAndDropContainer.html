@@ -1,0 +1,9 @@
+<template>
+    <div ondragover={handleDragOver}>
+        <div style="font-size:large;"><b><u>{category}</u></b></div>
+        <template for:each={productlist} for:item="product">
+            <c-drag-and-drop-item key={product.Id} product={product} onitemdrag={handleItemDrag} ondragenter={handleDragEnter}>
+            </c-drag-and-drop-item>
+        </template>
+    </div>
+</template>

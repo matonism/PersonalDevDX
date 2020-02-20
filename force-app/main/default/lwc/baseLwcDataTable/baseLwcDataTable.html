@@ -1,0 +1,52 @@
+<template>
+    <template if:true={initComplete}>
+        in table
+        <table class="slds-table slds-table_bordered slds-max-medium-table_stacked-horizontal" role="grid">
+            <thead>
+                <tr class="slds-text-heading_label">
+                    <template for:each={columnData} for:item="column" for:index="index">
+                        <th key={column.key} class="header-sort-up" id={column.key} scope="col" tabindex="0">
+                            {column.key}
+                            <c-table-head column={column} oncolumnselect={updateColumnSorting} selected-column={selectedColumn} icon-name={iconName}></c-table-head>
+                        </th>
+                    </template>
+                </tr>
+            </thead>
+            <tbody class="show-accordion">
+                <template iterator:it={rows} >
+                    <c-table-row-accordion row={it.value}
+                                           key={it.value}
+                                           row-data={it.value.data}
+                                           title={it.value.expandableSectionTitle}
+                                           row-index={it.index}
+                                           accordion-cell-click = true
+                                           oncellselected={handleCellClick}
+                                           checkbox-field-is-not-selectable={checkboxFieldIsNotSelectable}
+                                           oncheckboxselected={handleCheckboxClick}>
+                    </c-table-row-accordion>
+                </template>
+            </tbody>
+            <tbody class="show-table">
+                <template iterator:it={rows} >
+                    <tr class={addCursorToRow} key={it.value} onclick={handleRowClick} onkeypress={handleRowEnter}>
+                        <template iterator:innerit={it.value.data}>
+                            <td class="slds-truncate"
+                                data-label={innerit.value}
+                                key={it.value}
+                                data-id={it.value} tabindex="0">
+                                <c-table-cell row={it.value} 
+                                            field={innerit.value} 
+                                            key={it.value} 
+                                            row-index={it.index} 
+                                            cell-index={innerit.index}
+                                            oncellselected={handleCellClick}
+                                            checkbox-field-is-not-selectable={checkboxFieldIsNotSelectable}
+                                            oncheckboxselected={handleCheckboxClick}></c-table-cell>
+                            </td>
+                        </template>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </template>
+</template>

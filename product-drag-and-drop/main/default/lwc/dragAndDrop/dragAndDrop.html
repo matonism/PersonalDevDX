@@ -1,0 +1,19 @@
+<template>
+    
+    <div class="container-drag">
+        Drag & Drop Sample 1
+    </div>
+
+    <div class="container slds-grid" ondragover={handleDragOver} ondrop={handleItemDrop}>
+        <section class="slds-size_1-of-3 left">
+            <c-drag-and-drop-container category="Products" productlist={products} onlistitemdrag={handleListItemDrag} onitemdrop={handleItemDrop}></c-drag-and-drop-container>
+            <c-generate-order-button class="slds-m-top_small" ongenerateorder={handleGenerateOrder}></c-generate-order-button>
+        </section>
+    
+        <div class="canvas-container slds-size_2-of-3" >
+            <c-vanilla-canvas> </c-vanilla-canvas>
+        </div>
+    </div>
+
+    <c-order-modal product-list={productsAndCounts}></c-order-modal>
+</template>

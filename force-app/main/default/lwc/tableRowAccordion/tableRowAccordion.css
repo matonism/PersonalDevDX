@@ -1,0 +1,28 @@
+.display-row{
+	display:block;
+}
+
+.hide-row{
+	display:none;
+}
+
+.row-click {
+    cursor: pointer;
+}
+
+.slds-accordion__list-item {
+    background-color: rgba(98, 114, 123, 1);
+    border-bottom: 1px solid white;
+}
+
+.slds-button, .slds-button:active, .slds-button:hover, .slds-button:focus {
+    color: white;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.title-text {
+    font-size: 3.5vw;
+}

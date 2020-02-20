@@ -1,0 +1,7 @@
+<template>
+    <template if:true={contactRecord}>
+        {contactRecord.fields.AccountId.value}
+        {contactRecord.fields.Account.value.fields.Name.value}
+        <c-custom-lookup object-name="Account" label="Account Name" object-label="Account" columns-to-show={columnsToShow}></c-custom-lookup>
+    </template>
+</template>

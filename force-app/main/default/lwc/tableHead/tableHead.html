@@ -1,0 +1,13 @@
+<template>
+    <template if:false={column.isSortable}>
+        <div class="slds-truncate">
+            {column.value}
+        </div>
+    </template>
+    <template if:true={column.isSortable}>
+        <div class={headerClass} onclick={handleClick}>
+            {column.value}
+            <lightning-icon class="slds-p-left_xx-small" icon-name={iconName} size="xx-small"></lightning-icon>
+        </div>
+    </template>
+</template>

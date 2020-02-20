@@ -1,9 +1,0 @@
-{
-    "orgName": "Demo Company",
-    "edition": "Enterprise",
-    "settings": {
-        "lightningExperienceSettings": {
-            "enableS1DesktopEnabled": true
-        }
-    }
-}

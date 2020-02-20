@@ -1,0 +1,13 @@
+.columnWidth{
+	width: 60%;
+ }
+.headerText{
+	width: 100%;
+	align-items: center;
+	padding: 0.3125rem;
+	font-size: 1.2rem;
+}
+
+.preApprovalModalHeader {
+    background-color: green;
+}

@@ -3,8 +3,35 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/accountNavigationButton": [
+                "accountNavigationButton/accountNavigationButton.js"
+            ],
+            "c/baseLwcModal": [
+                "baseLwcModal/baseLwcModal.js"
+            ],
+            "c/customLookup": [
+                "customLookup/customLookup.js"
+            ],
+            "c/customLookupModal": [
+                "customLookupModal/customLookupModal.js"
+            ],
+            "c/customLookupModalTable": [
+                "customLookupModalTable/customLookupModalTable.js"
+            ],
+            "c/customLookupResult": [
+                "customLookupResult/customLookupResult.js"
+            ],
             "c/datatableExample": [
                 "datatableExample/datatableExample.js"
+            ],
+            "c/deleteRowButton": [
+                "deleteRowButton/deleteRowButton.js"
+            ],
+            "c/extendedDatatable": [
+                "extendedDatatable/extendedDatatable.js"
+            ],
+            "c/modalHeader": [
+                "modalHeader/modalHeader.js"
             ],
             "c/popupContents": [
                 "popupContents/popupContents.js"
@@ -15,17 +42,29 @@
             "c/popupModal": [
                 "popupModal/popupModal.js"
             ],
-            "c/moment": [
-                "../../../../sfdx-calendar/main/default/staticresources/moment/moment.js"
+            "c/showToastButton": [
+                "showToastButton/showToastButton.js"
             ],
-            "c/userDisplayPanel": [
-                "../../../../sfdx-user-panel/main/default/lwc/userDisplayPanel/userDisplayPanel.js"
+            "c/wireTest": [
+                "wireTest/wireTest.js"
             ],
-            "c/extendedDatatable": [
-                "extendedDatatable/extendedDatatable.js"
+            "c/testCustomLookupContainer": [
+                "testCustomLookupContainer/testCustomLookupContainer.js"
             ],
-            "c/deleteRowButton": [
-                "deleteRowButton/deleteRowButton.js"
+            "c/baseLwcDataTable": [
+                "baseLwcDataTable/baseLwcDataTable.js"
+            ],
+            "c/paginator": [
+                "paginator/paginator.js"
+            ],
+            "c/tableCell": [
+                "tableCell/tableCell.js"
+            ],
+            "c/tableHead": [
+                "tableHead/tableHead.js"
+            ],
+            "c/tableRowAccordion": [
+                "tableRowAccordion/tableRowAccordion.js"
             ]
         }
     },

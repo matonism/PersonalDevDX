@@ -1,0 +1,49 @@
+<template>
+	<div class="showModal">
+		<c-base-lwc-modal onclosemodal={closeModal} use-backdrop="true" modal-size="medium">
+			<c-modal-header slot="header"
+							header-text={headerName}></c-modal-header>
+			<div slot="content">
+				<div class="slds-modal__content slds-p-around_small slds-scrollable_x minHeight">
+					<c-custom-lookup-modal-table
+							object-name={objectName}
+							object-label={objectLabel}
+							columns-to-show={columnsToShow}
+							fields={fields}
+							filter={filter}
+							show-error={showError}
+							search-keyword={searchKeyword}
+							onselection={handleRecordSelection}>
+					</c-custom-lookup-modal-table>
+				</div>
+			</div>
+		</c-base-lwc-modal>
+	</div>
+	<div class="showMobile">
+		<div class="titleHeader">
+			<h3>{headerName}</h3>
+		</div>
+		<div class="slds-grid slds-grid_vertical-align-center backHeader">
+			<button title="Go back to previous page" type="button" class="slds-m-left_small slds-button back"
+					onclick={closeModal}>
+				<svg focusable="false" data-key="chevronleft" aria-hidden="true"
+					 class="slds-button__icon slds-button__icon_left">
+					<use xlink:href="/_slds/icons/utility-sprite/svg/symbols.svg?cache=9.24.0#chevronleft"></use>
+				</svg>
+				Back
+			</button>
+		</div>
+		<c-custom-lookup-modal-table
+				object-name={objectName}
+				object-label={objectLabel}
+				columns-to-show={columnsToShow}
+				fields={fields}
+				filter={filter}
+				show-error={showError}
+				search-keyword={searchKeyword}
+				onselection={handleRecordSelection}>
+		</c-custom-lookup-modal-table>
+
+		<div class="footer"></div>
+	</div>
+</template>
