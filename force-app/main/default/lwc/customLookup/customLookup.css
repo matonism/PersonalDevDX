@@ -62,13 +62,12 @@
 }
 
 .pill-action-spacing{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border: none !important;
 }
-
+/* 
 .slds-pill__remove{
     right: 2% !important;
 }
 .slds-pill__icon_container{
     left: 5px !important;
-}
+} */
