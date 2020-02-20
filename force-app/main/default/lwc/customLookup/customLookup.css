@@ -6,6 +6,7 @@
 }
 .whiteSpace{
     white-space: normal;
+    padding-left: 5px;
 }
 .pill{
     display: inline-flex;
@@ -58,4 +59,16 @@
     height: 100vw;
     background-color: rgba(52,52,52,.8);
     z-index: 200;
+}
+
+.pill-action-spacing{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.slds-pill__remove{
+    right: 2% !important;
+}
+.slds-pill__icon_container{
+    left: 5px !important;
 }

@@ -6,6 +6,9 @@
             "c/accountNavigationButton": [
                 "accountNavigationButton/accountNavigationButton.js"
             ],
+            "c/baseLwcDataTable": [
+                "baseLwcDataTable/baseLwcDataTable.js"
+            ],
             "c/baseLwcModal": [
                 "baseLwcModal/baseLwcModal.js"
             ],
@@ -33,6 +36,9 @@
             "c/modalHeader": [
                 "modalHeader/modalHeader.js"
             ],
+            "c/paginator": [
+                "paginator/paginator.js"
+            ],
             "c/popupContents": [
                 "popupContents/popupContents.js"
             ],
@@ -45,18 +51,6 @@
             "c/showToastButton": [
                 "showToastButton/showToastButton.js"
             ],
-            "c/wireTest": [
-                "wireTest/wireTest.js"
-            ],
-            "c/testCustomLookupContainer": [
-                "testCustomLookupContainer/testCustomLookupContainer.js"
-            ],
-            "c/baseLwcDataTable": [
-                "baseLwcDataTable/baseLwcDataTable.js"
-            ],
-            "c/paginator": [
-                "paginator/paginator.js"
-            ],
             "c/tableCell": [
                 "tableCell/tableCell.js"
             ],
@@ -65,6 +59,12 @@
             ],
             "c/tableRowAccordion": [
                 "tableRowAccordion/tableRowAccordion.js"
+            ],
+            "c/testCustomLookupContainer": [
+                "testCustomLookupContainer/testCustomLookupContainer.js"
+            ],
+            "c/wireTest": [
+                "wireTest/wireTest.js"
             ]
         }
     },

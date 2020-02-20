@@ -9,19 +9,18 @@ export default class TestCustomLookupContainer extends LightningElement {
     @api recordId;
     @track contactRecord;
     objectLabel = 'Account';
-    columnsToShow = 'Account';
     fields = 'Account';
     searchKeyWord = 'Account';
     columnsToShow = [
         {
             key: 'Id',
-            value: '',
+            value: 'Id',
             isClickable: true,
             isSortable: true,
         },
         {
             key: 'Name',
-            value: '',
+            value: 'Name',
             isClickable: false,
             isSortable: true,
         },

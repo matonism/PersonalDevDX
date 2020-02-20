@@ -6,7 +6,6 @@
                 <tr class="slds-text-heading_label">
                     <template for:each={columnData} for:item="column" for:index="index">
                         <th key={column.key} class="header-sort-up" id={column.key} scope="col" tabindex="0">
-                            {column.key}
                             <c-table-head column={column} oncolumnselect={updateColumnSorting} selected-column={selectedColumn} icon-name={iconName}></c-table-head>
                         </th>
                     </template>
