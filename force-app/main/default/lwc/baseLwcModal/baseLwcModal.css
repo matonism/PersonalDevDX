@@ -1,9 +1,0 @@
-.modalWrapper {
-	display: flex;
-	align-content: center;
-	justify-content: center;
-}
-.modalContainer{
-	max-width: 90vw;
-	position: fixed;
-}

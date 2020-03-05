@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/accountNavigationButton": [
+                "../main/default/lwc/accountNavigationButton/accountNavigationButton.js"
+            ],
+            "c/datatableExample": [
+                "../main/default/lwc/datatableExample/datatableExample.js"
+            ],
+            "c/deleteRowButton": [
+                "../main/default/lwc/deleteRowButton/deleteRowButton.js"
+            ],
+            "c/extendedDatatable": [
+                "../main/default/lwc/extendedDatatable/extendedDatatable.js"
+            ],
+            "c/popupContents": [
+                "../main/default/lwc/popupContents/popupContents.js"
+            ],
+            "c/popupLauncher": [
+                "../main/default/lwc/popupLauncher/popupLauncher.js"
+            ],
+            "c/popupModal": [
+                "../main/default/lwc/popupModal/popupModal.js"
+            ],
+            "c/showToastButton": [
+                "../main/default/lwc/showToastButton/showToastButton.js"
+            ],
+            "c/testCustomLookupContainer": [
+                "../main/default/lwc/testCustomLookupContainer/testCustomLookupContainer.js"
+            ],
+            "c/wireTest": [
+                "../main/default/lwc/wireTest/wireTest.js"
+            ]
+        }
+    }
+}
