@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Parent Account Form">
+        
+        <div class="slds-p-around_small">
+            <c-custom-lookup 
+                field-label="Account Name" 
+                field-name="AccountId"
+                object-name="Account" 
+                object-label="Account" 
+                icon="standard:account"
+                columns={columns}
+                default-record-id={contact.AccountId}
+                oncustomlookupselect={setAccountOnContact}>
+            </c-custom-lookup>
+        </div>
+
+        <div slot="footer">
+            <lightning-button label="Save Lookup" onclick={saveRecord}></lightning-button>
+        </div>
+
+    </lightning-card>
+</template>

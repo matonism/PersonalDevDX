@@ -1,26 +1,32 @@
 public with sharing class CustomLookupAuraService {
 
-	public static final Integer PAGE_SIZE = 2;
-
 	@AuraEnabled(cacheable=true)
-	public static List<SObject> fetchLookUpValues (String searchKeyword, String objectName, String jsonColumnData){
-		return fetchLookUpValues(searchKeyword, objectName, jsonColumnData, null, null);
+	public static SObject getDefaultRecord(String recordId, String objectName){
+		String queryString = 'SELECT Id, Name FROM ' + objectName + ' WHERE Id = \'' + recordId + '\'';
+		System.debug(queryString);
+		List<SObject> records = Database.query(queryString);
+		
+		if(records.size() == 1){
+			return records.get(0);
+		}
+
+		return null;
 	}
 
 	//fetch records for lookup drop down quick results
 	@AuraEnabled(cacheable=true)
-	public static List<SObject> fetchLookUpValues (String searchKeyword, String objectName, String jsonColumnData, String orderBy, Integer limiter){
+	public static List<SObject> fetchLookUpRecords (String searchKeyword, String objectName, String jsonColumnData, Integer limiter){
 
 		List<sObject> searchResults = new List<sObject> ();
-
 		List<ColumnData> columnData = (List<ColumnData>)JSON.deserialize(jsonColumnData, List<ColumnData>.class);
+		cleanColumnData(columnData);
 
 		List<String> fieldsToCheckAgainstKeyword = getFieldsToCheckAgainstKeyword(objectName, columnData);
 		List<String> fieldsToDisplayInColumns = getFieldsToDisplayInColumns(objectName, columnData);
 
 		String selectStatement = buildSelectStatement(fieldsToDisplayInColumns);
 		String whereStatement = buildWhereClause(objectName, fieldsToCheckAgainstKeyword, searchKeyword);
-		String orderStatement = buildOrderStatement('CreatedDate', false);
+		String orderStatement = buildOrderStatement('CreatedDate', 'desc');
 		String limitStatement = buildLimitStatement(limiter);
 		
 		String sQuery = selectStatement + objectName + ' ' + whereStatement + orderStatement + limitStatement;
@@ -36,16 +42,17 @@ public with sharing class CustomLookupAuraService {
 
 	//Fetch records for the table of displayed records in the popup modal
 	@AuraEnabled(cacheable=true)
-	public static CustomLookupTableResult fetchLookupValuesWithWrapper(String objectName, String columnString, String searchKey, String fieldToSort, Boolean isAscending, Integer pageNumber) {
+	public static CustomLookupTableResult fetchLookupRecordsForModalTable(String objectName, String columnString, String searchKey, String fieldToSort, String direction, Integer pageNumber, Integer pageSize) {
 
 		CustomLookupTableResult result = new CustomLookupTableResult();
 
 		List<ColumnData> columnData = (List<ColumnData>)JSON.deserialize(columnString, List<ColumnData>.class);
-		
+		cleanColumnData(columnData);
+
 		List<String> fieldsToCheckForKeyword = getFieldsToCheckAgainstKeyword(objectName, columnData);
 		List<String> fieldsToDisplayInColumns = getFieldsToDisplayInColumns(objectName, columnData);
 
-		String selectStatement = buildSelectStatement(fieldsToCheckForKeyword);
+		String selectStatement = buildSelectStatement(fieldsToDisplayInColumns);
 		String whereStatement = buildWhereClause(objectName, fieldsToCheckForKeyword, searchKey);
 
 		String fullQuery = selectStatement + objectName + ' ' + whereStatement;
@@ -54,13 +61,14 @@ public with sharing class CustomLookupAuraService {
 
 		result.totalItemCount = allPossibleLookupRecords.size();
 
-		String orderStatement = buildOrderStatement(fieldToSort, isAscending);
-		String limitStatement = buildLimitStatement(PAGE_SIZE);
-		String offsetStatement = ' OFFSET ' + (pageNumber-1) * PAGE_SIZE;
+		String orderStatement = buildOrderStatement(fieldToSort, direction);
+		String limitStatement = buildLimitStatement(pageSize);
+		String offsetStatement = ' OFFSET ' + (pageNumber-1) * pageSize;
 		
 		String paginationQuery = fullQuery + orderStatement + limitStatement + offsetStatement;
 
 		List<Object> searchList = Database.query(paginationQuery);
+		System.debug(paginationQuery);
 		result.records = searchList;
 		System.debug(result);
 		return result;
@@ -74,10 +82,9 @@ public with sharing class CustomLookupAuraService {
 		DescribeSObjectResult d = r.getDescribe();
 		for(ColumnData data : columnData){
 
-
-			if(d.fields.getMap().get(data.key) != null && data.isSortable){
-				if(d.fields.getMap().get(data.key).getDescribe().getType() == Schema.DisplayType.STRING){
-					fieldsToCheckAgainstKeyword.add(data.key);
+			if(d.fields.getMap().get(data.apiName) != null && data.isSearchable){
+				if(d.fields.getMap().get(data.apiName).getDescribe().getType() == Schema.DisplayType.STRING){
+					fieldsToCheckAgainstKeyword.add(data.apiName);
 				}
 			}
 		}
@@ -85,6 +92,7 @@ public with sharing class CustomLookupAuraService {
 		return fieldsToCheckAgainstKeyword;
 	}
 
+	//Does not allow for multi-level queries because lightning-datatable does not support them
 	private static List<String> getFieldsToDisplayInColumns(String objectName, List<ColumnData> columnData){
 		
 		List<String> fieldsToDisplayInColumns = new List<String>();
@@ -92,8 +100,8 @@ public with sharing class CustomLookupAuraService {
 		DescribeSObjectResult d = r.getDescribe();
 		for(ColumnData data : columnData){
 
-			if(d.fields.getMap().get(data.key) != null){
-				fieldsToDisplayInColumns.add(data.key);
+			if(d.fields.getMap().get(data.apiName) != null){
+				fieldsToDisplayInColumns.add(data.apiName);
 			}
 		}
 
@@ -120,7 +128,8 @@ public with sharing class CustomLookupAuraService {
 			if(i == 0){
 				whereStatement += 'WHERE ( ';
 			}
-
+			//Consider Removing name query because it gives extraneous results
+			//"Mark M" will yeild Mark Hons becasue Mark still has an M (logic: if "Mark" is in "Mark Hons" and if "M" is in "Mark Hons")
 			if(fieldsToCheckAgainstKeyword.get(i) == 'Name') {
 				whereStatement += buildNameQuery(searchKey);
 			} else {
@@ -161,13 +170,13 @@ public with sharing class CustomLookupAuraService {
 	}
 
 
-	public static String buildOrderStatement(String fieldToSort, Boolean isAscending){
+	public static String buildOrderStatement(String fieldToSort, String direction){
 
 		String orderStatement = '';
 		if(String.isNotEmpty(fieldToSort)){
 			orderStatement += ' ORDER BY ' + fieldToSort;
-			if(!isAscending){
-				orderStatement += ' DESC';
+			if(!String.isBlank(direction)){
+				orderStatement += ' ' + direction.toUpperCase();
 			}
 			orderStatement += ' NULLS LAST';
 		}else{
@@ -195,20 +204,31 @@ public with sharing class CustomLookupAuraService {
 		public Object[] records { get; set; }
 	}
 
+	private static void cleanColumnData(List<ColumnData> columnData){
+		for(ColumnData data : columnData){
+			if(data.isSearchable == null){
+				data.isSearchable = true;
+			}
+		}	
+	}
+
 	private class ColumnData{
 
-		String key;
-		String value;
+		String apiName;
+		String label;
 		Boolean isClickable;
 		Boolean isSortable;
 		Boolean isSearchable;
+		Boolean isDisplayable;
 		
-		public ColumnData(String key, String value, Boolean isClickable, Boolean isSortable, Boolean isSearchable){
-			this.key = key;
-			this.value = value;
+		public ColumnData(String apiName, String label, Boolean isClickable, Boolean isSortable, Boolean isSearchable, Boolean isDisplayable){
+			this.apiName = apiName;
+			this.label = label;
+			this.isSearchable = isSearchable;
 			this.isClickable = isClickable;
 			this.isSortable = isSortable;
-			this.isSearchable = isSearchable;
+			this.isDisplayable = isDisplayable;
+
 		}
 	}
 }

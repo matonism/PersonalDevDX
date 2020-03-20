@@ -3,25 +3,30 @@
 		
 		<c-custom-lookup-input 
 			object-name={objectName} 
-			label={label} 
+			label={fieldLabel} 
 			object-label={objectLabel} 
 			columns-to-show={columns} 
 			icon={icon}
 			field-level-help={fieldLevelHelp}
 			selected-record={selectedRecord}
-			onselection={handleRecordSelection}
-			search-keyword={searchKeyword}>
+			oncustomlookupselect={handleRecordSelection}
+			search-keyword={searchKeyword}
+			is-required={isRequired}
+			limit-attribute={limitAttribute}
+			clear-cache={clearCache}>
 		</c-custom-lookup-input>
 		
-		<c-popup-modal size="large" header={label}>
+		<c-popup-modal size="large" header={fieldLabel}>
 			<c-custom-lookup-modal-content 
 				object-name={objectName}
 				object-label={objectLabel}
 				columns-to-show={columns}
 				search-keyword={searchKeyword}
 				icon={icon}
-				onselection={handleRecordSelection}
-				page-size={pageSize}>
+				oncustomlookupselect={handleRecordSelection}
+				page-size={pageSize}
+				limit-attribute={limitAttribute}
+				clear-cache={clearCache}>
 			</c-custom-lookup-modal-content >
 
 			<div slot="footer">

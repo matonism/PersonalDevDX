@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Set Favorite Contact">
+        <c-custom-lookup 
+            object-name="Contact" 
+            object-label="Contact" 
+            field-name="Favorite_Contact__c" 
+            field-label="Favorite Contact"
+            columns={columnData}
+            default-record-id={contactId}
+            icon="standard:contact"
+            oncustomlookupselect={handleSelectedLookup}>
+        </c-custom-lookup>
+        <div slot="footer">
+            <lightning-button label="Save" onclick={saveAccount}></lightning-button>
+        </div>
+    </lightning-card>
+</template>

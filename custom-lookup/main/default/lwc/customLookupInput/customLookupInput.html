@@ -2,7 +2,7 @@
 	<div id="searchRes" class="slds-form-element slds-lookup" data-select="single">
 		<div class="slds-form-element__control">
 			<div>
-				<template if:true={selectedRecord}>
+				<template if:true={isRecordSelected}>
 					<template if:true={hasLabel}>
 						<label class="slds-form-element__label slds-grid">
 							<template if:true={isRequired}><abbr class="slds-required" title="required">* </abbr></template>{label}
@@ -28,7 +28,7 @@
 					</div>
 				</template>
 
-				<template if:false={selectedRecord}>
+				<template if:false={isRecordSelected}>
 					<div id="lookupField">
 						<template if:true={hasLabel}>
 							<lightning-input type="search" onchange={handleSearchChange} onfocus={handleFocus} onblur={handleBlur}

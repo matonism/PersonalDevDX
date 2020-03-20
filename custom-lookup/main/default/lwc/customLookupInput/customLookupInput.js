@@ -1,45 +1,57 @@
 import { LightningElement, track, api, wire } from 'lwc';
-import fetchLookUpValues from '@salesforce/apex/CustomLookupAuraService.fetchLookUpValues';
+import fetchLookUpRecords from '@salesforce/apex/CustomLookupAuraService.fetchLookUpRecords';
+import { refreshApex } from '@salesforce/apex';
 
 const DELAY = 300;
 
 export default class CustomLookupInput extends LightningElement {
+
 	@api label;
 	@api objectName;
 	@api objectLabel;
 	@api icon;
-	@api orderAttribute = '';
 	@api limitAttribute = 5;
 	@api isRequired = false;
 	@api hasError = false;
 	@api errorText = 'Complete this field.';
 	@api columnsToShow;
 	@api fieldLevelHelp;
-	@track columnString = '';
 	@track showError = false;
 
 	@api selectedRecord;
 	@track listOfSearchRecords = [];
 	@api searchKeyword = '';
+	@api clearCache;
 	@track isSearchKeywordLongEnough = false;
 
 	@track isResultsContainerVisible = false;
-
-	@track submittedVolunteerId;
-	connectedCallback(){
-		this.columnString = JSON.stringify(this.columnsToShow);
-	}
-	@wire(fetchLookUpValues, {
+	
+	@wire(fetchLookUpRecords, {
 		searchKeyword: '$searchKeyword',
 		objectName: '$objectName',
 		jsonColumnData: '$columnString',
-		orderBy: '$orderAttribute',
-		limitString: '$limitAttribute'
+		limiter: '$limitAttribute'
 	})
 	listOfSearchRecords;
 	
+	connectedCallback(){
+		if(!!this.clearCache){
+			refreshApex(fetchLookUpRecords);
+		}
+	}
+
 	handleFocus(){
+		this.hasError = false;
 		this.isResultsContainerVisible = true;
+	}
+
+	//used because {} evaluates to true for template if:true
+	get isRecordSelected(){
+		return !!this.selectedRecord && Object.keys(this.selectedRecord).length != 0;
+	}
+
+	get columnString(){
+		return JSON.stringify(this.columnsToShow);
 	}
 
 	get inputClass() {
@@ -54,7 +66,6 @@ export default class CustomLookupInput extends LightningElement {
 	}
 
 	handleBlur(){
-		// eslint-disable-next-line @lwc/lwc/no-async-operation
 		this.blurTimeout = window.setTimeout(() => {
 			this.isResultsContainerVisible = false;
 		}, DELAY );        
@@ -65,14 +76,13 @@ export default class CustomLookupInput extends LightningElement {
 		const searchKey = event.target.value;
 		this.isSearchKeywordLongEnough = searchKey.length > 1;
 
-		// eslint-disable-next-line @lwc/lwc/no-async-operation
 		this.delayTimeout = setTimeout(() => {
 			this.searchKeyword = searchKey;
 		}, DELAY);
 	}
 
 	clear(){
-		const clearEvent = new CustomEvent('selection', {detail: null});
+		const clearEvent = new CustomEvent('customlookupselect', {detail: {}});
 		this.dispatchEvent(clearEvent);
 	}
 

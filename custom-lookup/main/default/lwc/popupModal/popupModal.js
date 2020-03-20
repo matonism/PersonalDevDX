@@ -8,24 +8,25 @@ export default class Modal extends LightningElement {
     @track hasHeaderString = false;
 
     modalClass = BASE_MODAL_CSS;
-    privateHeader;
-    privateSize;
+    __privateHeader;
+    __privateSize;
     
     @api
     get size() {
-        return this.privateSize;
+        return this.__privateSize;
     }
-    @api
-    get header() {
-        return this.privateHeader;
+    set size(value) {
+        this.__privateSize = encodeURI(value);
+        this.modalClass = BASE_MODAL_CSS + ' slds-modal_' + this.__privateSize;
     }
 
-    set size(value) {
-        this.privateSize = encodeURI(value);
-        this.modalClass = BASE_MODAL_CSS + ' slds-modal_' + this.privateSize;
+    @api
+    get header() {
+        return this.__privateHeader;
     }
+
     set header(value) {
-        this.privateHeader = value;
+        this.__privateHeader = value;
         this.hasHeaderString = value !== '';
     }
 

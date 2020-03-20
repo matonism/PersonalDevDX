@@ -1,5 +1,6 @@
 import { LightningElement, track, api, wire } from 'lwc';
-import fetchLookupValuesWithWrapper from '@salesforce/apex/CustomLookupAuraService.fetchLookupValuesWithWrapper';
+import fetchLookupRecordsForModalTable from '@salesforce/apex/CustomLookupAuraService.fetchLookupRecordsForModalTable';
+import { refreshApex } from '@salesforce/apex';
 
 export default class CustomLookupModalContent extends LightningElement {
     
@@ -10,37 +11,38 @@ export default class CustomLookupModalContent extends LightningElement {
     @api columnsToShow;
     @api icon;
     @api fieldLevelHelp;
-
+    @api limitAttribute;
+    @api clearCache;
+    
     //paginator properties
-    @track pageNumber = 1;
     @api pageSize = 2;
+    @track pageNumber = 1;
     @track totalItemCount = 0;
 
     //data table properties
     @track sortBy = 'CreatedDate';
-    @track sortDirection;
+    @track sortDirection = 'desc';
 
-    @track selectedRecord;
 
     @track searchResults = [];
     @track initComplete = false;
-    @track isAscending = false;
 
-    @api expandableSectionTitleApiName ='Name';
+    @track selectedRecord;
 
-    @api searchKeyword;
-    // get searchKeyword(){
-    //     return this._searchKeyword;
-    // }
+    __privateSearchKeyword;
 
-    // set searchKeyword(value) {
-    //     this.initComplete = false;
-    //     this._searchKeyword = value;
-    //     this.handleSearchKeyword(this.searchKeyword);
-    // }
+    @api 
+    get searchKeyword(){
+        return this.__privateSearchKeyword;
+    }
+
+    set searchKeyword(value){
+        this.pageNumber = 1;
+        this.__privateSearchKeyword = value;
+    };
 
     get showError(){
-        return this.searchResults == null || this.searchResults.length === 0;
+        return this.initComplete && (this.searchResults == null || this.searchResults.length === 0);
     }
     
     get columnsString(){
@@ -60,17 +62,17 @@ export default class CustomLookupModalContent extends LightningElement {
     get dataTableColumns(){
         let dataTableColumns = [];
         for(let column of this.columnsToShow){
-            if(column.isDisplayable === true){
+            if(column.isDisplayable === true || column.isDisplayable === undefined){
 
                 let dataTableColumn = { 
-                    label: column.key, 
+                    label: column.label, 
                     type: 'clickableCell', 
                     sortable: column.isSortable,
-                    fieldName: column.value,
+                    fieldName: column.apiName,
                     typeAttributes: {
                         recordId : { fieldName: 'Id'},
-                        value : { fieldName: column.value},
-                        isClickable : column.isClickable
+                        value : { fieldName: column.apiName},
+                        isClickable : column.isClickable || column.isClickable === undefined
                     }
                 };
                 dataTableColumns.push(dataTableColumn);
@@ -79,28 +81,52 @@ export default class CustomLookupModalContent extends LightningElement {
         return dataTableColumns;
     }
 
+	@wire(fetchLookupRecordsForModalTable, {
+		objectName: '$objectName',
+        columnString: '$columnsString',
+		searchKey: '$searchKeyword',
+        fieldToSort: '$sortBy',
+        direction: '$sortDirection',
+        pageNumber: '$pageNumber',
+        pageSize: '$pageSize'
+    })
+    handleSearchResults({ error, data }) {
+        if(data){
+            this.searchResults = data.records;
+            this.totalItemCount = data.totalItemCount;
+            this.initComplete = true;
+        }else if(error){
+            this.initComplete = false;
+            this.initComplete = true;
+        }
+    }
+	
+	connectedCallback(){
+		if(!!this.clearCache){
+			refreshApex(this.handleSearchResults);
+		}
+    }
+    
     handleSelectedRecordId(event){
         let selectedRecordId = event.detail.recordId;
         this.selectedRecord = this.searchResults.find((record) => {
             return record.Id === selectedRecordId;
         });
         
-        const selectEvent = new CustomEvent('selection', { detail: this.selectedRecord });
+        const selectEvent = new CustomEvent('customlookupselect', { detail: this.selectedRecord });
         this.dispatchEvent(selectEvent);
     }
 
     handleSelectedRecord(event){
         this.selectedRecord = event.detail
-        const selectEvent = new CustomEvent('selection', { detail: this.selectedRecord });
+        const selectEvent = new CustomEvent('customlookupselect', { detail: this.selectedRecord });
         this.dispatchEvent(selectEvent);
     }
 
     handleSort(event){
         this.sortBy = event.detail.fieldName;
         this.sortDirection = event.detail.sortDirection;
-        this.isAscending = (this.sortDirection == 'asc');
         this.pageNumber = 1;
-        //this.handleSearchKeyword(this.searchKeyword);
     }
     
     // rowSelectedAccordion(event){
@@ -109,62 +135,21 @@ export default class CustomLookupModalContent extends LightningElement {
     //     this.dispatchEvent(selectEvent);
     // }
 
-	@wire(fetchLookupValuesWithWrapper, {
-		objectName: '$objectName',
-        columnString: '$columnsString',
-		searchKey: '$searchKeyword',
-        fieldToSort: '$sortBy',
-        isAscending: '$isAscending',
-        pageNumber: '$pageNumber'
-    })
-    searchResultsData({ error, data }) {
-        if(data){
-            this.searchResults = data.records;
-            this.totalItemCount = data.totalItemCount;
-            this.initComplete = true;
-        }else if(error){
-            this.initComplete = false;
-            this.searchResults = null;
-        }
-    }
-
-    // handleSearchKeyword(searchKey){
-	// 	fetchLookupValuesWithWrapper({objectName: this.objectName,
-    //                             columnString: JSON.stringify(this.columnsToShow),
-    //                             searchKey: searchKey,
-    //                             fieldToSort: this.sortBy,
-    //                             isAscending: (this.sortDirection == 'asc') ? true : false,
-    //                             pageNumber: this.pageNumber})
-    //     .then(result => {
-    //         this.searchResults = result.records;
-    //         this.totalItemCount = result.totalItemCount;
-    //         this.initComplete = true;
-    //     })
-    //     .catch(error => {
-    //         this.searchResults = null;
-    //     });
-    // }
-
-
 
     handlePreviousPage() {
         this.pageNumber = this.pageNumber - 1;
-        //this.handleSearchKeyword(this.searchKeyword);
     }
 
     handleNextPage() {
         this.pageNumber = this.pageNumber + 1;
-        //this.handleSearchKeyword(this.searchKeyword);
     }
 
     goToFirstPage(){
         this.pageNumber = 1;
-        //this.handleSearchKeyword(this.searchKeyword);
     }
 
     goToLastPage(){
         this.pageNumber = this.totalPages;
-        //this.handleSearchKeyword(this.searchKeyword);
     }
 
     get totalPages() {

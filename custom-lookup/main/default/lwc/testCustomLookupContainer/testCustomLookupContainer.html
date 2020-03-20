@@ -1,11 +1,13 @@
 <template>
     <template if:true={contactRecord}>
         <c-custom-lookup 
+            field-label="Account Name" 
+            field-name="AccountId"
             object-name="Account" 
-            label="Account Name" 
             object-label="Account" 
             columns={columns} 
-            icon="standard:account">
+            icon="standard:account"
+            oncustomlookupselect={handleLookupSelected}>
         </c-custom-lookup>
     </template>
 </template>

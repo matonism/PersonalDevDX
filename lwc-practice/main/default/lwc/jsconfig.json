@@ -27,9 +27,6 @@
             "c/showToastButton": [
                 "showToastButton/showToastButton.js"
             ],
-            "c/testCustomLookupContainer": [
-                "testCustomLookupContainer/testCustomLookupContainer.js"
-            ],
             "c/wireTest": [
                 "wireTest/wireTest.js"
             ]
