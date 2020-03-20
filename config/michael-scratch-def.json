@@ -1,7 +1,0 @@
-{
-    "orgName": "Demo Company",
-    "edition": "Enterprise",
-    "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled"]
-    }
-}

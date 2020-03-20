@@ -1,7 +1,0 @@
-<aura:component implements="flexipage:availableForAllPageTypes">
-    <ui:button label="view report" press="{!c.navigateToReport}"/>
-   
-    
-    
-	
-</aura:component>

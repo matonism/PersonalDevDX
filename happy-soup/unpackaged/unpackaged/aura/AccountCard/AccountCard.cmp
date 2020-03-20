@@ -1,6 +1,0 @@
-<aura:component >
-	<aura:attribute name="acc" type="Account"/>
-
-	{!v.acc.Name}
-
-</aura:component>

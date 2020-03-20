@@ -1,5 +1,0 @@
-<aura:component implements="forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes,force:hasRecordId">
-	<div>
-	Made it to the component
-</div>
-</aura:component>

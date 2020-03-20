@@ -1,0 +1,9 @@
+<template>
+    <lightning-card>
+        <div slot="title">{title.Name}</div> 
+        <slot name="content"></slot>
+        <div slot="footer">
+            Available Stock: {title.AvailableStock__c} / {title.TotalStock__c}
+        </div> 
+    </lightning-card>
+</template>

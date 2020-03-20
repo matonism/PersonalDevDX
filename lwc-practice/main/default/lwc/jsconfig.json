@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/accountNavigationButton": [
+                "accountNavigationButton/accountNavigationButton.js"
+            ],
+            "c/datatableExample": [
+                "datatableExample/datatableExample.js"
+            ],
+            "c/deleteRowButton": [
+                "deleteRowButton/deleteRowButton.js"
+            ],
+            "c/extendedDatatable": [
+                "extendedDatatable/extendedDatatable.js"
+            ],
+            "c/popupContents": [
+                "popupContents/popupContents.js"
+            ],
+            "c/popupLauncher": [
+                "popupLauncher/popupLauncher.js"
+            ],
+            "c/popupModal": [
+                "popupModal/popupModal.js"
+            ],
+            "c/showToastButton": [
+                "showToastButton/showToastButton.js"
+            ],
+            "c/wireTest": [
+                "wireTest/wireTest.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

@@ -16,7 +16,7 @@
 
     {!v.targetError}
 
-	<c:CustomLookup objectAPIName="Zoo__c" value="{!v.animal.Zoo__c}" IconName="standard:account" label="Transfer Zoo"/>
+	<c:CustomLookupAura objectAPIName="Zoo__c" value="{!v.animal.Zoo__c}" IconName="standard:account" label="Transfer Zoo"/>
 
     <div class="transfer-container">
 		<ui:button class="transfer-button" label="Completel Transfer" press="{!c.transferAnimal}" />

@@ -3,11 +3,53 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/accountNavigationButton": [
+                "../../../../force-app/main/default/lwc/accountNavigationButton/accountNavigationButton.js"
+            ],
+            "c/datatableExample": [
+                "../../../../force-app/main/default/lwc/datatableExample/datatableExample.js"
+            ],
+            "c/deleteRowButton": [
+                "../../../../force-app/main/default/lwc/deleteRowButton/deleteRowButton.js"
+            ],
+            "c/extendedDatatable": [
+                "../../../../force-app/main/default/lwc/extendedDatatable/extendedDatatable.js"
+            ],
+            "c/popupContents": [
+                "../../../../force-app/main/default/lwc/popupContents/popupContents.js"
+            ],
+            "c/popupLauncher": [
+                "../../../../force-app/main/default/lwc/popupLauncher/popupLauncher.js"
+            ],
+            "c/popupModal": [
+                "../../../../force-app/main/default/lwc/popupModal/popupModal.js"
+            ],
+            "c/showToastButton": [
+                "../../../../force-app/main/default/lwc/showToastButton/showToastButton.js"
+            ],
             "c/moment": [
                 "../../../../sfdx-calendar/main/default/staticresources/moment/moment.js"
             ],
             "c/userDisplayPanel": [
                 "userDisplayPanel/userDisplayPanel.js"
+            ],
+            "c/wireTest": [
+                "../../../../force-app/main/default/lwc/wireTest/wireTest.js"
+            ],
+            "c/baseLwcModal": [
+                "../../../../force-app/main/default/lwc/baseLwcModal/baseLwcModal.js"
+            ],
+            "c/customLookup": [
+                "../../../../force-app/main/default/lwc/customLookup/customLookup.js"
+            ],
+            "c/customLookupModal": [
+                "../../../../force-app/main/default/lwc/customLookupModal/customLookupModal.js"
+            ],
+            "c/customLookupModalTable": [
+                "../../../../force-app/main/default/lwc/customLookupModalTable/customLookupModalTable.js"
+            ],
+            "c/customLookupResult": [
+                "../../../../force-app/main/default/lwc/customLookupResult/customLookupResult.js"
             ]
         }
     },

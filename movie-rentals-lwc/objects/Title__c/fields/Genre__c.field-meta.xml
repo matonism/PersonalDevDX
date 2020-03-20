@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Genre__c</fullName>
+    <description>The Genre of the Movie Title</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Genre of the Movie Title</inlineHelpText>
+    <label>Genre</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Comedy</fullName>
+                <default>false</default>
+                <label>Comedy</label>
+            </value>
+            <value>
+                <fullName>Horror</fullName>
+                <default>false</default>
+                <label>Horror</label>
+            </value>
+            <value>
+                <fullName>Romance</fullName>
+                <default>false</default>
+                <label>Romance</label>
+            </value>
+            <value>
+                <fullName>Sci-Fi</fullName>
+                <default>false</default>
+                <label>Sci-Fi</label>
+            </value>
+            <value>
+                <fullName>Action</fullName>
+                <default>false</default>
+                <label>Action</label>
+            </value>
+            <value>
+                <fullName>Fantasy</fullName>
+                <default>false</default>
+                <label>Fantasy</label>
+            </value>
+            <value>
+                <fullName>Western</fullName>
+                <default>false</default>
+                <label>Western</label>
+            </value>
+            <value>
+                <fullName>Documentary</fullName>
+                <default>false</default>
+                <label>Documentary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

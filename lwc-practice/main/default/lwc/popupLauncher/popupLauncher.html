@@ -1,0 +1,22 @@
+<template>
+
+    <lightning-button label="Click for Popup" onclick={openModal}></lightning-button>
+    <lightning-button label="Small" onclick={openSmallModal}></lightning-button>
+    <lightning-button label="Medium" onclick={openMediumModal}></lightning-button>
+    <lightning-button label="Large" onclick={openLargeModal}></lightning-button>
+
+    <c-popup-modal header="Create New Contact" size={variant}>
+
+        <div slot="tagline">
+            Tagline for the popup modal
+        </div>
+
+        <div slot="footer">
+            <lightning-button label="Save" onclick={saveRecord}></lightning-button>
+        </div>
+
+        <c-popup-contents oncontactcreated={closeModal}></c-popup-contents>
+        
+    </c-popup-modal>
+
+</template>
