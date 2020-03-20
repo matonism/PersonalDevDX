@@ -10,8 +10,3 @@ core\main\default\settings\OrgPreference.settings-meta.xml
 **/jsconfig.json
 
 **/.eslintrc.json
-
-sfdx-calendar/
-sfdx-lockerservice-demo/
-sfdx-movierentals/
-sfdx-user-panel/
