@@ -48,6 +48,7 @@ export default class ContactAccountManager extends LightningElement {
     }
 
     setAccountOnContact(event){
+        console.log('Handler works');
         if(!!event.detail.record.Id){
             this.contact[event.detail.fieldName] = event.detail.record.Id;
         }else{
