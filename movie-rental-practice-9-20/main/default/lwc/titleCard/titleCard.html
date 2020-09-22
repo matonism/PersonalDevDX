@@ -1,0 +1,14 @@
+<template>
+    <div onclick={handleTitleSelection}>
+
+        <lightning-card title={title.Name}>
+                        
+            <slot></slot>
+            
+            <div slot="footer">
+                {title.AvailableStock__c} / {title.TotalStock__c}
+            </div>
+        </lightning-card>
+    </div>
+
+</template>

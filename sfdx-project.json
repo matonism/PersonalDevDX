@@ -1,13 +1,13 @@
 {
     "packageDirectories": [
         {
-            "path": "force-app",
+            "path": "movie-rental-practice-9-20",
             "default": true
         }
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "45.0",
+    "sourceApiVersion": "49.0",
     "packageAliases": {
         "movierentals": "0Ho1R000000fxSVSAY",
         "movierentals@0.1.0-1": "04t1R000001QeP8QAK",

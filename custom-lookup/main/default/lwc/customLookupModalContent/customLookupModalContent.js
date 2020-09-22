@@ -57,6 +57,7 @@ export default class CustomLookupModalContent extends LightningElement {
         }
     }
 
+    //TODO: Leverage .map here
     get dataTableColumns(){
         let dataTableColumns = [];
         for(let column of this.columnsToShow){
@@ -84,7 +85,6 @@ export default class CustomLookupModalContent extends LightningElement {
         return Math.ceil(this.totalItemCount / this.pageSize);
     }
 
-    //TODO: Decide on wire method formatting
 	@wire(fetchLookupRecordsForModalTable, {
 		objectName: '$objectName',
         columnString: '$columnsString',
@@ -93,7 +93,8 @@ export default class CustomLookupModalContent extends LightningElement {
         direction: '$sortDirection',
         pageNumber: '$pageNumber',
         pageSize: '$pageSize'
-    }) handleSearchResults({ error, data }) {
+    }) 
+    handleSearchResults({ error, data }) {
         if(data){
             this.searchResults = data.records;
             this.totalItemCount = data.totalItemCount;
@@ -113,9 +114,9 @@ export default class CustomLookupModalContent extends LightningElement {
     
     handleSelectedRecordId(event){
         let selectedRecordId = event.detail.recordId;
-        this.selectedRecord = this.searchResults.find((record) => {
-            return record.Id === selectedRecordId;
-        });
+        this.selectedRecord = this.searchResults.find(record => 
+            record.Id === selectedRecordId
+        );
         
         const selectEvent = new CustomEvent('customlookupselect', { detail: this.selectedRecord });
         this.dispatchEvent(selectEvent);

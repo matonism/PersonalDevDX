@@ -26,8 +26,22 @@ export default class CustomLookup extends LightningElement {
 	//These are the fields that get displayed in columns and have their values checked against the search string
 	//isClickable, isSortable, and isDisplayable are only relevant for the lookup modal
 	@api columns = [
-		{apiName: 'Name', label: 'Name', isSearchable: true, isClickable: true, isSortable: true, isDisplayable: true},
-		{apiName: 'Id', label: 'Id', isSearchable: false, isClickable: false, isSortable: false, isDisplayable: false}
+		{
+			apiName: 'Name', 
+			label: 'Name', 
+			isSearchable: true, 
+			isClickable: true, 
+			isSortable: true, 
+			isDisplayable: true
+		},
+		{
+			apiName: 'Id', 
+			label: 'Id', 
+			isSearchable: false, 
+			isClickable: false, 
+			isSortable: false, 
+			isDisplayable: false
+		}
 	];
 
 	//used for modal and pagination
@@ -39,11 +53,11 @@ export default class CustomLookup extends LightningElement {
 	//used to toggle clearing cache automatically so wire methods are always up to date
 	@api clearCache = false;
 
-	//TODO: Wire formatting regarding newline
 	@wire(getDefaultRecord, {
 		recordId: '$defaultRecordId',
 		objectName: '$objectName'
-	}) setSelectedRecordToDefault({error, data}){
+	}) 
+	setSelectedRecordToDefault({error, data}){
 		if(data){
 			this.selectedRecord = data;
 		}else if(error){

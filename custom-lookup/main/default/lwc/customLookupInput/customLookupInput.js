@@ -48,7 +48,7 @@ export default class CustomLookupInput extends LightningElement {
 
 	//used because {} evaluates to true for template if:true
 	get isRecordSelected(){
-		return !!this.selectedRecord && Object.keys(this.selectedRecord).length != 0;
+		return this.selectedRecord && Object.keys(this.selectedRecord).length != 0;
 	}
 
 	get columnString(){
@@ -60,10 +60,7 @@ export default class CustomLookupInput extends LightningElement {
 	}
 
 	get hasLabel() {
-		if(this.label) {
-			return true;
-		}
-		return false;
+		return !!this.label;
 	}
 
 	handleBlur(){

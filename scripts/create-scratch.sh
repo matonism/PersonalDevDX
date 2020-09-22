@@ -2,8 +2,11 @@
 # set the STRING variable
 STRING="Hello World!"
 
-echo "Enter your Dev Hub Username"
-read DevHubUsername
+# echo "Enter your Dev Hub Username"
+# read DevHubUsername
+
+echo "What folder would you like to deploy (default: force-app)"
+read DefaultFolder
 
 echo "What would you like to call your scratch org?"
 read ScratchOrgAlias
@@ -43,8 +46,16 @@ sfdx force:org:create -f ./config/project-scratch-def.json -a $ScratchOrgAlias -
 # echo 'Deploying Post-Install base-lib Manual Metadata...'
 # sfdx force:source:deploy -p ../sfdx-base-lib/manual-metadata/post-install -u $ScratchOrgAlias
 
-echo 'Pushing Local Metadata...'
-sfdx force:source:push -u $ScratchOrgAlias
+if [[ $DefaultFolder == "" ]] || [[ $InstallBaseLib == "force-app" ]] 
+then
+    echo "Pushing Local Metadata..."
+    sfdx force:source:push -u $ScratchOrgAlias
+else
+
+    echo "Pushing ${DefaultFolder} manually..."
+    sfdx force:source:deploy -p $DefaultFolder -u $ScratchOrgAlias
+
+fi 
 
 # echo 'Assigning Default Permission Sets...'
 # sfdx force:user:permset:assign -n System_Admin -u $ScratchOrgAlias

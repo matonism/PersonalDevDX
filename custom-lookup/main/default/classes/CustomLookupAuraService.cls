@@ -68,9 +68,7 @@ public with sharing class CustomLookupAuraService {
 		String paginationQuery = fullQuery + orderStatement + limitStatement + offsetStatement;
 
 		List<Object> searchList = Database.query(paginationQuery);
-		System.debug(paginationQuery);
 		result.records = searchList;
-		System.debug(result);
 		return result;
 	}
 
@@ -122,6 +120,7 @@ public with sharing class CustomLookupAuraService {
 		return selectStatement;
 	}
 
+	///TODO: look into SOSL
 	private static String buildWhereClause(String objectName, List<String> fieldsToCheckAgainstKeyword, String searchKey){
 		String whereStatement = '';
 		for(Integer i = 0; i<fieldsToCheckAgainstKeyword.size(); i++){
@@ -223,14 +222,21 @@ public with sharing class CustomLookupAuraService {
 		}	
 	}
 
+	
 	public class ColumnData{
 
-		String apiName;
-		String label;
-		Boolean isClickable;
-		Boolean isSortable;
-		Boolean isSearchable;
-		Boolean isDisplayable;
+		@AuraEnabled
+		public String apiName;
+		@AuraEnabled
+		public String label;
+		@AuraEnabled
+		public Boolean isClickable;
+		@AuraEnabled
+		public Boolean isSortable;
+		@AuraEnabled
+		public Boolean isSearchable;
+		@AuraEnabled
+		public Boolean isDisplayable;
 		
 		public ColumnData(String apiName, String label, Boolean isClickable, Boolean isSortable, Boolean isSearchable, Boolean isDisplayable){
 			this.apiName = apiName;
