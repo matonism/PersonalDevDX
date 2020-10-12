@@ -1,6 +1,6 @@
 import { LightningElement, api, wire } from 'lwc';
 import { publish, MessageContext } from 'lightning/messageService';
-import SelectedTitle from '@salesforce/messageChannel/Selected_Title__c';
+import SELECTED_TITLE_MC from '@salesforce/messageChannel/Selected_Title__c';
 
 export default class TitleCard extends LightningElement {
     @api title;
@@ -11,6 +11,6 @@ export default class TitleCard extends LightningElement {
     handleTitleSelection(event){
         console.log('firing event');
         const payload = {title: this.title};
-        publish(this.messageContext, SelectedTitle, payload);
+        publish(this.messageContext, SELECTED_TITLE_MC, payload);
     }
 }

@@ -1,11 +1,10 @@
 import { LightningElement, wire, track } from 'lwc';
 import getRelatedStock from '@salesforce/apex/StockAuraService.getRelatedStock';
-import { subscribe, unsubscribe, APPLICATION_SCOPE, MessageContext } from 'lightning/messageService';
-import selectedTitle from '@salesforce/messageChannel/Selected_Title__c';
+import { subscribe, unsubscribe, MessageContext } from 'lightning/messageService';
+import TITLE_SELECTED_MC from '@salesforce/messageChannel/Selected_Title__c';
 
 export default class RelatedStockContainer extends LightningElement {
 
-    subscription = null;
     stocks;
     title;
     @track selectedStockId;
@@ -18,14 +17,11 @@ export default class RelatedStockContainer extends LightningElement {
     }
 
     subscribeToSelectedTitle(){
-        if(!this.subscription){
-            this.subscription = subscribe(
-                this.messageContext,
-                selectedTitle,
-                (message) => this.handleMessage(message),
-                { scope: APPLICATION_SCOPE }
-            );
-        }
+        subscribe(
+            this.messageContext,
+            TITLE_SELECTED_MC,
+            (message) => this.handleMessage(message)
+        );
     }
 
     handleMessage(message){
