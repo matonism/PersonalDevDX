@@ -1,5 +1,6 @@
 import { LightningElement, wire, track } from 'lwc';
 import getRelatedStock from '@salesforce/apex/StockAuraService.getRelatedStock';
+
 import { subscribe, unsubscribe, MessageContext } from 'lightning/messageService';
 import TITLE_SELECTED_MC from '@salesforce/messageChannel/Selected_Title__c';
 
