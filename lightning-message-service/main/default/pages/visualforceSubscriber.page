@@ -1,0 +1,30 @@
+<apex:page lightningStylesheets="true">
+
+    <div class="display-message">VF: No Message has been received</div>
+    
+    <script>
+        // Load the Message Channel token in a variable
+        var SAMPLEMC = "{!$MessageChannel.Template_Channel__c}";
+        var subscription;
+
+        function handleMessage(message) {
+            var textArea = document.querySelector(".display-message");
+            textArea.innerHTML = message.displayMessage;
+        }
+
+        function subscribeMC() {
+            if (!subscription) {
+                subscription = sforce.one.subscribe(SAMPLEMC, handleMessage);
+            }
+        }
+
+        function unsubscribeMC() {
+            if (subscription) {
+                sforce.one.unsubscribe(subscription);
+                subscription = null;
+            }
+        }
+
+        subscribeMC();
+    </script>
+</apex:page>

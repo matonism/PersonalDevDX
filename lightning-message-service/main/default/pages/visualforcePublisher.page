@@ -1,0 +1,15 @@
+<apex:page lightningStylesheets="true">
+    <button onclick="publishMC()">Send VF Message</button>
+
+    <script>
+        // Load the Message Channel token in a variable
+        var TEMPLATE_CHANNEL_MC = "{!$MessageChannel.Template_Channel__c}";
+        function publishMC() {
+            const message = {
+                displayMessage: "Sent from VF"
+            }
+            sforce.one.publish(TEMPLATE_CHANNEL_MC, message);
+        }
+    </script>
+    
+</apex:page>
